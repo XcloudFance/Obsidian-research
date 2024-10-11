@@ -4,30 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "c704cd5e261fad8a",
-        "type": "tabs",
-        "dimension": 35.640648011782034,
-        "children": [
-          {
-            "id": "2f4ea8bbf551251a",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-do List.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "004a06676e6cecf6",
         "type": "tabs",
-        "dimension": 64.35935198821797,
         "children": [
           {
             "id": "8ac6c13447f6242a",
@@ -105,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-do List.md",
+                "file": "Unlearning/One-dimensional Adapter.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-do List.md",
+                "file": "Unlearning/One-dimensional Adapter.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,16 +123,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-do List.md"
+                "file": "Unlearning/One-dimensional Adapter.pdf"
               }
             }
+          },
+          {
+            "id": "d51a56542b8417eb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,11 +153,15 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-importer:Open Importer": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f4ea8bbf551251a",
+  "active": "d51a56542b8417eb",
   "lastOpenFiles": [
+    "To-do List.md",
+    "Untitled Kanban 1.md",
+    "未命名.canvas",
     "Untitled Kanban.md",
     "Unlearning/One-dimensional Adapter & ECD.md",
     "Unlearning/One-dimensional Adapter.pdf",
@@ -197,14 +187,12 @@
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 1.png",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs/meru.pdf",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Noise Impacts towards RAG.md",
-    "Untitled Kanban 1.md",
     "Steven/未命名.canvas",
     "Personal Statement - sfz.md",
     "Steven/数据库好处.canvas",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Dataset Quantization - ICCV 2023.md",
     "nginx config.md",
     "Unlearning",
-    "To-do List.md",
     "SJTU/Papers/Reading.md",
     "Learnable Masks - Inspired from SVGFormer.md",
     "未命名思维导图.md",
@@ -213,7 +201,6 @@
     "Testing on One-for-All.md",
     "未命名 1.canvas",
     "Steven/未命名.md",
-    "未命名.canvas",
     "未命名 3.canvas",
     "Steven",
     "未命名 2.canvas",
