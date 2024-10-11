@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"024d567caf222521","type":"text","text":"Language Translator","x":-400,"y":-140,"width":250,"height":60},
+		{"id":"8eeb2be999629e60","type":"text","text":"Compiler","x":-62,"y":-200,"width":250,"height":60},
+		{"id":"b3a9ae8e7e09288e","type":"text","text":"Interpreter","x":-63,"y":-51,"width":250,"height":60},
+		{"id":"e97b7de5109ed504","type":"text","text":"Produce EXE files no need for environment to run the program\n","x":253,"y":-295,"width":347,"height":75,"color":"1"},
+		{"id":"81eaea9ee20e2ff7","type":"text","text":"Debug: Report all errors in the end","x":350,"y":-170,"width":250,"height":60,"color":"5"},
+		{"id":"b8757fc727f07307","type":"text","text":"It executes the program line by line","x":195,"y":329,"width":250,"height":60},
+		{"id":"f3511d78c3686670","x":561,"y":247,"width":250,"height":60,"color":"5","type":"text","text":"It report the error when encountering them"},
+		{"id":"9d15b4b159f48563","x":882,"y":245,"width":250,"height":60,"color":"5","type":"text","text":"Can solve the error immediately"},
+		{"id":"02e9b5266356bcd4","type":"text","text":"Cannot produce an ExE file, meaning that every time when users need to execute the programs, it needs a downloaded environment","x":350,"y":40,"width":345,"height":117,"color":"1"},
+		{"id":"07c69464afeddd3d","x":708,"y":-174,"width":250,"height":60,"type":"text","text":"So hard to fix bugs"},
+		{"id":"35172d4c5a100177","x":522,"y":-465,"width":250,"height":86,"type":"text","text":"Easier to distribute the programs"},
+		{"id":"8c2153aef31fd0a5","x":874,"y":-520,"width":250,"height":120,"type":"text","text":"The compiled file wont be edited or changed  so that it wouldnt get pirated"}
+	],
+	"edges":[
+		{"id":"5715aed4cce94334","fromNode":"024d567caf222521","fromSide":"right","toNode":"8eeb2be999629e60","toSide":"left"},
+		{"id":"532e790b2561b378","fromNode":"024d567caf222521","fromSide":"right","toNode":"b3a9ae8e7e09288e","toSide":"left"},
+		{"id":"9e49cdd9099756de","fromNode":"8eeb2be999629e60","fromSide":"right","toNode":"e97b7de5109ed504","toSide":"left"},
+		{"id":"484df209deff9a2b","fromNode":"b3a9ae8e7e09288e","fromSide":"right","toNode":"02e9b5266356bcd4","toSide":"left"},
+		{"id":"507af4054e698f73","fromNode":"8eeb2be999629e60","fromSide":"right","toNode":"81eaea9ee20e2ff7","toSide":"left"},
+		{"id":"7a69e7b89416d510","fromNode":"b3a9ae8e7e09288e","fromSide":"right","toNode":"b8757fc727f07307","toSide":"left"},
+		{"id":"0f7fae9edf650a97","fromNode":"b8757fc727f07307","fromSide":"right","toNode":"f3511d78c3686670","toSide":"left"},
+		{"id":"9032ccc0e931d0f1","fromNode":"f3511d78c3686670","fromSide":"right","toNode":"9d15b4b159f48563","toSide":"left"},
+		{"id":"038d6b95ece376e4","fromNode":"81eaea9ee20e2ff7","fromSide":"right","toNode":"07c69464afeddd3d","toSide":"left"},
+		{"id":"e0a519208797a3d6","fromNode":"e97b7de5109ed504","fromSide":"top","toNode":"35172d4c5a100177","toSide":"bottom"},
+		{"id":"a9eb43994cc4a236","fromNode":"35172d4c5a100177","fromSide":"right","toNode":"8c2153aef31fd0a5","toSide":"left"}
+	]
+}

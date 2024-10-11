@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"cc8a3e92edc96fc0","type":"text","text":"niggesh","x":-125,"y":-30,"width":245,"height":50},
+		{"id":"3a9da6586011343f","type":"text","text":"Mahdi","x":260,"y":-35,"width":250,"height":55}
+	],
+	"edges":[
+		{"id":"a9157cfdb0a08ea9","fromNode":"cc8a3e92edc96fc0","fromSide":"right","toNode":"3a9da6586011343f","toSide":"left"}
+	]
+}

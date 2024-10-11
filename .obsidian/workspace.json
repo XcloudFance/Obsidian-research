@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "ba99d3a15d540407",
+    "type": "split",
+    "children": [
+      {
+        "id": "c704cd5e261fad8a",
+        "type": "tabs",
+        "dimension": 35.640648011782034,
+        "children": [
+          {
+            "id": "2f4ea8bbf551251a",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-do List.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "004a06676e6cecf6",
+        "type": "tabs",
+        "dimension": 64.35935198821797,
+        "children": [
+          {
+            "id": "8ac6c13447f6242a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Unlearning/One-dimensional Adapter.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b3fd2cf27bd02db5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a981230c9daa998b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53b395db3a632f47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ac8df789b2cacd1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d00e679023503323",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5024719238281
+  },
+  "right": {
+    "id": "dbcdfb7df05b8ad3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f931b2b5909cf59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a28f7a8ae082ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "To-do List.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30a5f6eaeeae67f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "To-do List.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "723f0cc80a68f5bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e944354f87b7180",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "To-do List.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "obsidian-kanban:Create new board": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-importer:Open Importer": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "2f4ea8bbf551251a",
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "Unlearning/One-dimensional Adapter & ECD.md",
+    "Unlearning/One-dimensional Adapter.pdf",
+    "Unlearning/Erasing Concepts from Diffusion Models.pdf",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/From Complex to Simple Enhancing Multi-Constraint Complex Instruction Following Ability of Large Language Models.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/HYPE.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MoDS Model-oriented Data Selection for Instruction Tuning.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/SYNTHETIC CONTINUED PRETRAINING.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Data Curation - Compression - Efficiency - Filtering - Distillation.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Active Instruction Tuning Improving Cross-Task Generalization by Training on Prompt Sensitive Task - EMNLP 2023.md",
+    "9618_s24_qp_11.pdf",
+    "2024-10-08.md",
+    "Steven/复习笔记（1）.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/LIMA - Less Is More For Alignment.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MERU - Hyperbolic Image-text Representations.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011094519.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011095022.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 10.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 9.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 8.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 3.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 1.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs/meru.pdf",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Noise Impacts towards RAG.md",
+    "Untitled Kanban 1.md",
+    "Steven/未命名.canvas",
+    "Personal Statement - sfz.md",
+    "Steven/数据库好处.canvas",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Dataset Quantization - ICCV 2023.md",
+    "nginx config.md",
+    "Unlearning",
+    "To-do List.md",
+    "SJTU/Papers/Reading.md",
+    "Learnable Masks - Inspired from SVGFormer.md",
+    "未命名思维导图.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Recaption - DALL.E3 - Captioning - Multimodal.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Entropy Law The Story Behind Data Compression and LLM Performance.md",
+    "Testing on One-for-All.md",
+    "未命名 1.canvas",
+    "Steven/未命名.md",
+    "未命名.canvas",
+    "未命名 3.canvas",
+    "Steven",
+    "未命名 2.canvas",
+    "SJTU/Papers",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 11.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 2.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation"
+  ]
+}
