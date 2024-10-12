@@ -4,16 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "004a06676e6cecf6",
+        "id": "cfb3e7ee68ccce68",
         "type": "tabs",
+        "dimension": 28.217821782178216,
         "children": [
           {
-            "id": "8ac6c13447f6242a",
+            "id": "192691f76f949293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Review.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "153d61ccb8d2dfa8",
+        "type": "tabs",
+        "dimension": 71.78217821782178,
+        "children": [
+          {
+            "id": "02e8f0336a34871b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Unlearning/One-dimensional Adapter.pdf"
+                "file": "GenAIUnleaning/DiffusionUnlearning/2024/Defensive Unlearning.pdf"
               }
             }
           }
@@ -67,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5024719238281
+    "width": 397.5
   },
   "right": {
     "id": "dbcdfb7df05b8ad3",
@@ -83,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unlearning/One-dimensional Adapter.pdf",
+                "file": "Literature Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unlearning/One-dimensional Adapter.pdf",
+                "file": "Literature Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unlearning/One-dimensional Adapter.pdf"
+                "file": "Literature Review.md"
               }
             }
           },
@@ -145,7 +166,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "obsidian-kanban:Create new board": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -153,30 +173,49 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-importer:Open Importer": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d51a56542b8417eb",
+  "active": "192691f76f949293",
   "lastOpenFiles": [
+    "GenAIUnleaning/DiffusionUnlearning/2024/Defensive Unlearning.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Concept Preserving Grad.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/2024/All but One Surgical C.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/2024/One-dimensional Adapte.pdf",
+    "Literature Review.md",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Pruning for Robust Co.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Moderator.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Ablating Concepts.pdf",
+    "GenAIUnleaning/General_techniques/SEGA.pdf",
+    "GenAIUnleaning/General_techniques/SEGA.pdf.fdmdownload",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Untitled.md",
+    "GenAIUnleaning/DiffusionUnlearning/impo/Get What You Want.pdf",
+    "GenAIUnleaning/DiffusionUnlearning/Attack_restore/2024/Six_CD_Benchmark.pdf",
+    "GenAIUnleaning/Notes/DiffusionUnlearning/Literature R.md",
+    "Pasted image 20241012042910.png",
+    "GenAIUnleaning/Untitled.md",
+    "GenAIUnleaning/Removing Undesirable Concepts in Text-to-Image Diffusion Models with Learnable Prompts.md",
+    "Future Work.md",
+    "2024-10-08.md",
+    "Unlearning/One-dimensional Adapter & ECD.md",
+    "UnlearningListUM/One-dimensional Adapter & ECD.md",
+    "Learnable Masks - Inspired from SVGFormer.md",
+    "nginx config.md",
+    "Personal Statement - sfz.md",
     "To-do List.md",
     "Untitled Kanban 1.md",
     "未命名.canvas",
     "Untitled Kanban.md",
-    "Unlearning/One-dimensional Adapter & ECD.md",
-    "Unlearning/One-dimensional Adapter.pdf",
-    "Unlearning/Erasing Concepts from Diffusion Models.pdf",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/From Complex to Simple Enhancing Multi-Constraint Complex Instruction Following Ability of Large Language Models.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/HYPE.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MoDS Model-oriented Data Selection for Instruction Tuning.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/SYNTHETIC CONTINUED PRETRAINING.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Data Curation - Compression - Efficiency - Filtering - Distillation.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Active Instruction Tuning Improving Cross-Task Generalization by Training on Prompt Sensitive Task - EMNLP 2023.md",
-    "9618_s24_qp_11.pdf",
-    "2024-10-08.md",
     "Steven/复习笔记（1）.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/LIMA - Less Is More For Alignment.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MERU - Hyperbolic Image-text Representations.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011094519.png",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011095022.png",
@@ -185,30 +224,13 @@
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 8.png",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 3.png",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 1.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs/meru.pdf",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Noise Impacts towards RAG.md",
     "Steven/未命名.canvas",
-    "Personal Statement - sfz.md",
     "Steven/数据库好处.canvas",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Dataset Quantization - ICCV 2023.md",
-    "nginx config.md",
-    "Unlearning",
-    "SJTU/Papers/Reading.md",
-    "Learnable Masks - Inspired from SVGFormer.md",
-    "未命名思维导图.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Recaption - DALL.E3 - Captioning - Multimodal.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Entropy Law The Story Behind Data Compression and LLM Performance.md",
-    "Testing on One-for-All.md",
     "未命名 1.canvas",
-    "Steven/未命名.md",
     "未命名 3.canvas",
-    "Steven",
     "未命名 2.canvas",
-    "SJTU/Papers",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 11.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 2.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation"
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image.png"
   ]
 }
