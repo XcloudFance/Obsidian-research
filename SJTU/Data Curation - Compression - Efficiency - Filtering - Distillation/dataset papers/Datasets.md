@@ -9,3 +9,8 @@
 > [!PDF|yellow] [[Xiong 等 - 2023 - Effective Long-Context Scaling of Foundation Model.pdf#page=4&selection=238,50,240,36&color=yellow|Xiong 等 - 2023 - Effective Long-Context Scaling of Foundation Model, p.4]]
 > > The number of shots are decided based on the average sample length of each dataset (i.e., samples in Qasper and QuALITY are often much shorter than those of NarrativeQA). 
 
+- ZeroSCROLLS   - instruction tuning evaluation
+	- Summarization
+	- QA
+	- Aggregation
+- 
