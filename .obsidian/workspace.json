@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cfb3e7ee68ccce68",
+        "id": "004a06676e6cecf6",
         "type": "tabs",
-        "dimension": 28.217821782178216,
+        "dimension": 60.13001083423619,
         "children": [
           {
-            "id": "192691f76f949293",
+            "id": "8ac6c13447f6242a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Review.md",
+                "file": "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers/QuALITY - Question Answering with Long Input Texts, Yes!.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -24,17 +24,20 @@
         ]
       },
       {
-        "id": "153d61ccb8d2dfa8",
+        "id": "a6bb65ac4459965b",
         "type": "tabs",
-        "dimension": 71.78217821782178,
+        "dimension": 39.86998916576381,
         "children": [
           {
-            "id": "02e8f0336a34871b",
+            "id": "97c6cdf4854912b5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GenAIUnleaning/DiffusionUnlearning/2024/Defensive Unlearning.pdf"
+                "file": "Unlearning/One-dimensional Adapter & ECD.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -88,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 434.5
   },
   "right": {
     "id": "dbcdfb7df05b8ad3",
@@ -104,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Review.md",
+                "file": "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers/QuALITY - Question Answering with Long Input Texts, Yes!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Review.md",
+                "file": "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers/QuALITY - Question Answering with Long Input Texts, Yes!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Review.md"
+                "file": "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers/QuALITY - Question Answering with Long Input Texts, Yes!.md"
               }
             }
           },
@@ -157,15 +160,17 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "obsidian-kanban:Create new board": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -173,64 +178,62 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "192691f76f949293",
+  "active": "8ac6c13447f6242a",
   "lastOpenFiles": [
-    "GenAIUnleaning/DiffusionUnlearning/2024/Defensive Unlearning.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/2024/Concept Preserving Grad.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/2024/All but One Surgical C.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/2024/One-dimensional Adapte.pdf",
-    "Literature Review.md",
-    "GenAIUnleaning/DiffusionUnlearning/2024/Pruning for Robust Co.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/2024/Moderator.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/2024/Ablating Concepts.pdf",
-    "GenAIUnleaning/General_techniques/SEGA.pdf",
-    "GenAIUnleaning/General_techniques/SEGA.pdf.fdmdownload",
-    "GenAIUnleaning/DiffusionUnlearning/2024/Untitled.md",
-    "GenAIUnleaning/DiffusionUnlearning/impo/Get What You Want.pdf",
-    "GenAIUnleaning/DiffusionUnlearning/Attack_restore/2024/Six_CD_Benchmark.pdf",
-    "GenAIUnleaning/Notes/DiffusionUnlearning/Literature R.md",
-    "Pasted image 20241012042910.png",
-    "GenAIUnleaning/Untitled.md",
-    "GenAIUnleaning/Removing Undesirable Concepts in Text-to-Image Diffusion Models with Learnable Prompts.md",
-    "Future Work.md",
-    "2024-10-08.md",
     "Unlearning/One-dimensional Adapter & ECD.md",
-    "UnlearningListUM/One-dimensional Adapter & ECD.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/pdfs/Quality.pdf",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers/QuALITY - Question Answering with Long Input Texts, Yes!.md",
+    "Pasted image 20241013013316.png",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/SYNTHETIC CONTINUED PRETRAINING.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/dataset papers",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Dataset Quantization - ICCV 2023.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/HYPE.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MERU - Hyperbolic Image-text Representations.md",
+    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/LIMA - Less Is More For Alignment.md",
     "Learnable Masks - Inspired from SVGFormer.md",
     "nginx config.md",
+    "GenAIUnleaning/Literature Review.md",
     "Personal Statement - sfz.md",
+    "Steven/Pasted image 20241012042910.png",
+    "Steven/Pasted image 20241012211853.png",
+    "Steven/Pasted image 20241012210605.png",
+    "GenAIUnleaning/Notes/DiffusionUnlearning/Literature R.md",
+    "GenAIUnleaning/DiffusionUnlearning/2024/Ablating Concepts.pdf",
+    "SJTU/Datasets - NLP side.md",
+    "GenAIUnleaning/VAE_GAN/Feature Unlearning for Pre-trained GANs and VAEs.pdf",
+    "GenAIUnleaning/VAE_GAN/Feature Unlearning for Generative Models via Implicit Feedback.pdf",
+    "GenAIUnleaning/VAE_GAN",
+    "GenAIUnleaning/Notes/DiffusionUnlearning",
+    "GenAIUnleaning/Notes",
+    "GenAIUnleaning/General_techniques/SEGA.pdf",
+    "GenAIUnleaning/General_techniques/On the Limitations and Prospects of Machine Unlearning for Generative AI.pdf",
+    "Future Work.md",
+    "Steven/Paper 2 - Linked List & Structure Chart & FSM.md",
+    "Steven/Pasted image 20241012213113.png",
+    "Steven/Pasted image 20241012212202.png",
+    "Steven/Pasted image 20241012211951.png",
+    "Steven/Pasted image 20241012210829.png",
+    "Steven/Pasted image 20241012205811.png",
     "To-do List.md",
     "Untitled Kanban 1.md",
     "未命名.canvas",
     "Untitled Kanban.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/From Complex to Simple Enhancing Multi-Constraint Complex Instruction Following Ability of Large Language Models.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/HYPE.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MoDS Model-oriented Data Selection for Instruction Tuning.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/SYNTHETIC CONTINUED PRETRAINING.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Data Curation - Compression - Efficiency - Filtering - Distillation.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Active Instruction Tuning Improving Cross-Task Generalization by Training on Prompt Sensitive Task - EMNLP 2023.md",
+    "2024-10-08.md",
     "Steven/复习笔记（1）.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/LIMA - Less Is More For Alignment.md",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/MERU - Hyperbolic Image-text Representations.md",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011094519.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/Pasted image 20241011095022.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 10.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 9.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 8.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 3.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 1.png",
     "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/Noise Impacts towards RAG.md",
     "Steven/未命名.canvas",
     "Steven/数据库好处.canvas",
     "未命名 1.canvas",
     "未命名 3.canvas",
-    "未命名 2.canvas",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image 11.png",
-    "SJTU/Data Curation - Compression - Efficiency - Filtering - Distillation/images/image.png"
+    "未命名 2.canvas"
   ]
 }
