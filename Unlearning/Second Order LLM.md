@@ -11,4 +11,3 @@
 > second-order information in retaining the knowledge of remaining data and stabilizing the unlearning process
 
 - model cannot be applied by certified removal directly since non-convexity
-- 
