@@ -48,3 +48,13 @@ That's why they do calculation of loss on multiple concepts.
 
 [[One-dimensional Adapter.pdf#page=5&selection=224,2,285,0|One-dimensional Adapter, page 5]]
 
+> [!PDF|yellow] [[One-dimensional Adapter.pdf#page=4&selection=102,11,111,33&color=yellow|One-dimensional Adapter, p.4]]
+> > s such, the original forward process y = W x is intervened by our SPM as follows:
+> 
+>
+
+
+
+> [!PDF|red] [[One-dimensional Adapter.pdf#page=4&selection=481,5,483,16&color=red|One-dimensional Adapter, p.4]]
+> >  in comparison with the large general semantic space that pre-trained models have obtained, hand-crafted prompts at the scale of 
+

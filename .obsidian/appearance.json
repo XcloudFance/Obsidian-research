@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Blue Topaz",
   "interfaceFontFamily": "Microsoft YaHei",
   "textFontFamily": "Microsoft YaHei",
-  "theme": "system"
+  "theme": "system",
+  "nativeMenus": false
 }
