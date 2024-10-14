@@ -17,3 +17,8 @@
 
 Newton update is used for getting the roots of non-linear function.
 - first derivative (**gradient**), and second derivative (**Hessian** matrix) at the current point.
+![[Pasted image 20241015015243.png]]
+
+It means the **mutual information of Interest of D-** and **output of original model** should be smaller than **the expectation of D-** between **original** model with **unlearned** model
+
+
