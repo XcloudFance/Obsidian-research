@@ -11,3 +11,9 @@
 > second-order information in retaining the knowledge of remaining data and stabilizing the unlearning process
 
 - model cannot be applied by certified removal directly since non-convexity
+
+> [!PDF|red] [[Second Order Information.pdf#page=2&selection=79,51,87,14&color=red|Second Order Information, p.2]]
+> > , namely Fisher Removal and Fisher Forgetting, which are both derived from Newton update.
+
+Newton update is used for getting the roots of non-linear function.
+- first derivative (**gradient**), and second derivative (**Hessian** matrix) at the current point.
