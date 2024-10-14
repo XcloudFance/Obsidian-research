@@ -22,3 +22,6 @@ Newton update is used for getting the roots of non-linear function.
 It means the **mutual information of Interest of D-** and **output of original model** should be smaller than **the expectation of D-** between **original** model with **unlearned** model
 
 
+## Mutual Information
+![[Pasted image 20241015021339.png]]
+![[Pasted image 20241015021406.png]]
