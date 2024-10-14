@@ -25,3 +25,5 @@ It means the **mutual information of Interest of D-** and **output of original m
 ## Mutual Information
 ![[Pasted image 20241015021339.png]]
 ![[Pasted image 20241015021406.png]]
+
+[[entropy.pdf]]
