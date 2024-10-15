@@ -11,6 +11,8 @@ kanban-plugin: board
 - [ ] mask-to-deflare
 - [ ] unlearning reading
 - [ ] entigraph experiment
+- [ ] Hessian matrix guided Diffusion (second order) for unlearning
+- [ ] Diffusion latent representation learning
 
 
 ## Doing
