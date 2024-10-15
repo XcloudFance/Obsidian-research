@@ -11,3 +11,5 @@
 ## FRE1 + No wtconv dual addition attention
 
 ![[Pasted image 20241015222119.png]]
+## FRE1 + New dual branch wtconv FFN + normal crossatt + 1500 epochs
+
