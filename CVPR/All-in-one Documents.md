@@ -8,3 +8,6 @@
 
 ## fre2 with normal batchsize with addition attention
 ![[Pasted image 20241014001631.png]]
+## FRE1 + No wtconv dual addition attention
+
+![[Pasted image 20241015222119.png]]
