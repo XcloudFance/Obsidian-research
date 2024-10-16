@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## To-do
 
-- [ ] Long and Complex is alignment
 - [ ] mask2former
 - [ ] mask-to-deflare
 - [ ] unlearning reading
@@ -18,6 +17,7 @@ kanban-plugin: board
 ## Doing
 
 - [ ] AutoDL finetune EntiGraph
+- [ ] Long and Complex is alignment
 
 
 ## Done
