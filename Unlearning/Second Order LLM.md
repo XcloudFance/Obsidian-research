@@ -27,3 +27,12 @@ It means the **mutual information of Interest of D-** and **output of original m
 ![[Pasted image 20241015021406.png]]
 
 [[entropy.pdf]]
+
+
+## Efficient GPU
+> [!PDF|red] [[Second Order Information.pdf#page=4&selection=142,52,164,1&color=yellow|Second Order Information, p.4]]
+> > Specifically, we can only focus on blocks of width 𝐵 along the main diagonal, which brings down the computation from quadratic 𝑂 (𝑑2) to linear 𝑂 (𝐵𝑑).
+
+- They only observe the main diagonal to reduce the computational overhead.
+- 
+
