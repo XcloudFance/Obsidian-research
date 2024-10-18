@@ -3,6 +3,18 @@ IFD = PPL(Y|X) / PPL(X)
 
 The lower the IFD is, the easier the model would understand or follow the instructions and vice versa. **Thus, higher IFD indicates more difficulties to study, which is conducive to the performance.**
 
+## IFD - From Cherry LLM
+![[Pasted image 20241018095742.png]]
+
+![[Pasted image 20241018095806.png]]
+
+
+
+
+
+
+
+
 Train a rather smaller model (GPT2 - 124M) to measure IFD score.
 ![[Pasted image 20241018094207.png]]
 
