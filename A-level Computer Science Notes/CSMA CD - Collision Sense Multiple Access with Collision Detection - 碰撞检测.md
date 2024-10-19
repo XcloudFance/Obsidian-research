@@ -5,7 +5,7 @@
 ## Bus Topology
 - Transmitting data on a dedicated Line  - 专线传输
 - Risks to trigger collisions when two devices on the internet **transmit at the same time**
-- 
+- Other computers can read the data being sent from one to another computer. (less privacy)
 
 ## CSMA/CD  - From Znotes
 - **Before transmitting, device checks if channel is busy**
