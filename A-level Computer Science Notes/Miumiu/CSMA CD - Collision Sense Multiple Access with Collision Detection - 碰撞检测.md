@@ -2,6 +2,9 @@
 > [!NOTE] Scenarios
 > CSMA/CD is mostly used in Ethernet, Bus topology context.
 > 意思就是你看到Ethernet或者Bus topology的情况基本都有
+
+Ethernet is a wired Local Area network
+
 ## Bus Topology
 - Transmitting data on a dedicated Line  - 专线传输
 - Risks to trigger collisions when two devices on the internet **transmit at the same time**

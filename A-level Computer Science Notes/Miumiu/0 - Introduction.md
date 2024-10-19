@@ -14,3 +14,5 @@ https://www.bilibili.com/video/BV1EW411u7th/?spm_id_from=333.337.search-card.all
 - Course Book - 核心的背诵内容
 - Znotes - For paper1 and paper2
 - Syllabus - 考纲
+	- 就是可以用来看今年考的考点以及扫盲
+
