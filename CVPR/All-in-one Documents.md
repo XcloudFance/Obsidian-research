@@ -12,6 +12,13 @@
 
 ![[Pasted image 20241015222119.png]]
 ## FRE1 + New dual branch wtconv FFN + normal crossatt + 1500 epochs
+![[Pasted image 20241019141029.png]]
 
 ## FRE3 - Dual Branch Addition Attention
 ![[Pasted image 20241017221816.png]]
+
+
+## Only Dehazing Dataset - on FRE3
+- research on dehazing methods a bit
+
+## Prompt Added
