@@ -35,6 +35,10 @@
 - **Example**: Second instruction is added in second time cycle, while the first instruction moves to the second subtask.
 
 ## OOP
+- Instance - 实例
+	- String x = "abc";
+	- an instantiation of a class - 一个类的实例化
+	- 
 - inheritance 
 	- inherit the functions and attributes from base class
 - Polymorphism
