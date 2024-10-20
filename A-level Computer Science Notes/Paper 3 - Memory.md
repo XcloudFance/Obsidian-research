@@ -21,3 +21,21 @@
 - Deep learning systems enable machines to process data with a **nonlinear approach.**
 - deal with unstructured data
 - ![[Pasted image 20241020220041.png]]
+
+
+## Pipelining
+- **The process is divided into 5 stages:**
+	- instruction fetch
+	- instruction decode
+	- operation fetch
+	- instruction execute
+	- writeback (WB)
+- Each subtasks spends one clock cycle
+- No two instructions execute on the same subtasks
+- **Example**: Second instruction is added in second time cycle, while the first instruction moves to the second subtask.
+
+## OOP
+- inheritance 
+	- inherit the functions and attributes from base class
+- Polymorphism
+	- 
