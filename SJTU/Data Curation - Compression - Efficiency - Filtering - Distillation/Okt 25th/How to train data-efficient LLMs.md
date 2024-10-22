@@ -8,5 +8,6 @@
 - 
 
 全篇抨击perplexity过滤方法倾向于筛除有用的例子，保留一些无厘头的内容，上下文能力不够好，判断文本单纯用max likelihood等等。
+并且提出了两个方法：Ask-LLM和Density Sampling
 
 他们的方法
