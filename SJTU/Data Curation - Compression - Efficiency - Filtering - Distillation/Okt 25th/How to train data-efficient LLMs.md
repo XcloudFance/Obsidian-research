@@ -4,4 +4,5 @@
 - perplexity scoring has a length bias or in-distribution bias, where LLM quality scoring can escape from it.
 - Enlightenment: Actually [[SuperFiltering - IFD  & Perplexity]] summarizes the same pattern but didn't figure why different scales of models perform different measurement in terms of perplexity.
 
+- Model: T5-Large (800M)  C4 Dataset - For Pretraining
 - 
