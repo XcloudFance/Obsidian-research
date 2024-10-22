@@ -16,4 +16,4 @@ Density Sampling - 比起计算X到Y的相似度，要花费N2的时间，直接
 
 ![[Pasted image 20241022213034.png]]
 
-他们觉得，ask-llm 不仅提供了质量的权衡的时候考虑到了逻辑，perplexity只是看到了“difficulty", 然后density sampler 提供了在潜在语义的coverage
+他们觉得，ask-llm 不仅提供了质量的权衡的时候考虑到了逻辑，perplexity只是看到了“difficulty", 然后density sampler 提供了在潜在语义的coverage， 相比于其他k-means之类聚类颁发，他们只是单纯通过中心点移除了异常值和一些不准确的质量
