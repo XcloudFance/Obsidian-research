@@ -21,7 +21,7 @@
 ## Only Dehazing Dataset - on FRE3
 - research on dehazing methods a bit
 
-## Low Freq Prompt + FRE3 + Dual Branch Addition Attention + WTFFN + Multi-level encoding
+## Low Freq Prompt + FRE1 + magic Dual Branch Addition Attention + WTFFN + Multi-level encoding
 
 ![[Pasted image 20241023210919.png]]
 
