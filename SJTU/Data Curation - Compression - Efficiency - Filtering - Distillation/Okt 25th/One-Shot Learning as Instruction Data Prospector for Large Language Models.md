@@ -15,4 +15,7 @@
 
 
 ![[Pasted image 20241023124131.png]]
-- 
+- ![[Pasted image 20241023160353.png]]
+简单来说就是用1-shot的能力和0-shot的能力的差别去看0-shot过滤后的能力距离目标还有多远
+
+这个思路感觉和super filtering很像，用conditional的perplexity和non conditional的比例去计算
