@@ -10,3 +10,7 @@ Taxonomy model让这个任务本身“平均化“了，不是针对任何特定
 
 （其实感觉和Entity的那边有股莫名的雷同）
 
+![[Pasted image 20241025094420.png]]
+
+random采样和taxonomy 采样的输出分布情况
+
