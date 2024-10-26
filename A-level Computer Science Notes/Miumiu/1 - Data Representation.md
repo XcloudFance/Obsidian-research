@@ -117,4 +117,14 @@ This is how a computer stores binary numbers
 ## Encoding of Character Sets
 - Each character in character sets has an unique binary representation
 - 7 bit - 2^7 possibility
-- ASCII - 7 bits -
+- ASCII - 7 bits - only include alphabets and basic marks
+- Extended ASCII - 8 bits - include more european alphabets
+- UNICODE - 4 bytes - Larger storage needed - but supports global languages
+
+
+## Sound
+
+Analogue data - 模拟信号 - 指的是现实生活中的物理信号，是continuous
+Digital Data - 数字信号 - 其实就是0 和 1 计算机可理解的方式(computer understandable) - 是discrete
+
+是通过Sampling 采样的方式去获取声音信号的
