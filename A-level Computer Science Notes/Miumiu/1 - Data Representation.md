@@ -20,7 +20,9 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 
 
 ## Image Representation
-Bitmap 位图
+---
+
+###  Bitmap 位图
 - Consists of **pixels**, of each represents a specific color by binary number.
 	- pixel is the smallest unit in bitmap to represent a single color
 	- more pixels mean **larger file size**, but **better quality**
@@ -36,9 +38,20 @@ Bitmap 位图
 	- File Size Calculation
 		- Number of pixels * Color Depth
 		- 3840 * 2180 * 3 Bytes = 
-
-
-
+	
+- Bitmap stores its **metadata** in **file header** (the beginning of the data of the file)
+	- metadata: basic information about this image
+		- Author
+		- Color Depth
+		- Pixels
+		- Dates of taken
+		- location
+	- 
 
 	- RGB - Red Green Blue - 255
 
+### Vectoric 矢量图
+- Storing **drawing lists** and **drawing objects**
+	- Drawing Lists 
+- When zooming in, no quality is lost - 和bitmap相反
+- When resize the image, need to re-calculate each objects
