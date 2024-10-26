@@ -28,12 +28,14 @@ Bitmap 位图
 
 - Resolution 分辨率 - pixels的个数
 	- 3840 * 2180 images - 长3840pixels, 宽是2180pixels
-	- Color Depth - 色深 - How many number of bits taken by each color in pixels
-	- 256(Denary) = 1 0000 0000
-	- 1 2 4 8 16 32 64 128 256 512 1024 2048
-	- 16 = 10000(binary)
-	- 32 = 100000
-	- 33 = 32 + 1 = 100001
+	- **Color Depth** - 色深 - How many number of bits taken by each color in pixels
+		- 普通图片是由RGB组成的，每个颜色通常8个bit
+		- Color Depth: 24 bits
+		- Each pixels needs to take up 24 bits to store.
+		- 
+	- File Size Calculation
+		- Number of pixels * Color Depth
+		- 3840 * 2180 * 3 Bytes = 
 
 
 
