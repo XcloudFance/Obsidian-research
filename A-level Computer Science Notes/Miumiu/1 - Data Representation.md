@@ -23,7 +23,20 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 Bitmap 位图
 - Consists of **pixels**, of each represents a specific color by binary number.
 	- pixel is the smallest unit in bitmap to represent a single color
-	- more pixels mean larger file size
-- Resolution 分辨率
-	- 3840 * 2180 images - 
+	- more pixels mean **larger file size**, but **better quality**
+- When zooming in, the bitmap image get **pixelated**
+
+- Resolution 分辨率 - pixels的个数
+	- 3840 * 2180 images - 长3840pixels, 宽是2180pixels
+	- Color Depth - 色深 - How many number of bits taken by each color in pixels
+	- 256(Denary) = 1 0000 0000
+	- 1 2 4 8 16 32 64 128 256 512 1024 2048
+	- 16 = 10000(binary)
+	- 32 = 100000
+	- 33 = 32 + 1 = 100001
+
+
+
+
+	- RGB - Red Green Blue - 255
 
