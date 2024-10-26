@@ -58,10 +58,14 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 - Storing **drawing lists** and **drawing objects**
 	- Drawing Lists are **set of commands** defining the vector
 	- Drawing Objects are **mathematically** calculated shapes like circles, lines, rectangle
-	- Properties: Properties of each object are the basic geometric data which determine the shape and appearance. (每个图像的属性)
+	- **Properties**: Properties of each object are the basic **geometric data** which determine the **shape** and **appearance**. (每个图像的属性)
 	- 
 - When resize the image, need to re-calculate each objects
 - Advantages
 	- File size is relatively smaller than normal bitmap
+		- because it only stores the needed objects and commands instead of brutally storing each pixels
 	- When zooming in, no quality is lost - 和bitmap相反
+- Disadvantages
+	- Looks unreal - Bitmaps looks like real-world images
+	- Every time needs to re-calculate the relative coordinates of objects
 	- 
