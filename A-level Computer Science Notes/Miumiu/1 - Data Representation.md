@@ -34,10 +34,14 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 		- 普通图片是由RGB组成的，每个颜色通常8个bit
 		- Color Depth: 24 bits
 		- Each pixels needs to take up 24 bits to store.
-		- 
+		- 4 bits - 2 ^ 4 = 16种可能
+			- 0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010,1100,1101 ,1110, 1111
+		- 8 bits - 2 ^ 8 = 256种可能
+	
 	- File Size Calculation
 		- Number of pixels * Color Depth
 		- 3840 * 2180 * 3 Bytes = 
+	- 
 	
 - Bitmap stores its **metadata** in **file header** (the beginning of the data of the file)
 	- metadata: basic information about this image
@@ -52,6 +56,12 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 
 ### Vectoric 矢量图
 - Storing **drawing lists** and **drawing objects**
-	- Drawing Lists 
-- When zooming in, no quality is lost - 和bitmap相反
+	- Drawing Lists are **set of commands** defining the vector
+	- Drawing Objects are **mathematically** calculated shapes like circles, lines, rectangle
+	- Properties: Properties of each object are the basic geometric data which determine the shape and appearance. (每个图像的属性)
+	- 
 - When resize the image, need to re-calculate each objects
+- Advantages
+	- File size is relatively smaller than normal bitmap
+	- When zooming in, no quality is lost - 和bitmap相反
+	- 
