@@ -55,7 +55,7 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 	- RGB - Red Green Blue - 255
 
 ### Vectoric 矢量图
-- Storing **drawing lists** and **drawing objects**
+- Made up of **drawing lists** and **drawing objects**
 	- Drawing Lists are **set of commands** defining the vector
 	- Drawing Objects are **mathematically** calculated shapes like circles, lines, rectangle
 	- **Properties**: Properties of each object are the basic **geometric data** which determine the **shape** and **appearance**. (每个图像的属性)
@@ -69,3 +69,24 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 	- Looks unreal - Bitmaps looks like real-world images
 	- Every time needs to re-calculate the relative coordinates of objects
 	- 
+
+
+
+
+## Two's complement
+This is how a computer stores binary numbers
+在计算机里面，数字的长度是固定的，8bit, 16bit或者计算机分配的指定bit,如果没说默认就8bit
+00100101
+
+
+
+
+37 % 2 = 18 …… 1
+18 % 2= 9 ...... 0
+9 % 2 = 4 ...... 1
+4 % 2 = 2 ...... 0
+2 % 2 = 1 ...... 0
+1 % 2 = 0 ...... 1
+
+37(Denary) = 100101 (Binary)
+
