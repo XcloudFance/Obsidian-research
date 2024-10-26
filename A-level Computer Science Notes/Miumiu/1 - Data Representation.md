@@ -98,12 +98,12 @@ This is how a computer stores binary numbers
 3 % 2 = 1 .... 1
 1 % 2 = 0 .... 1
 
-- -27
+- -27 - 直接计算版
 	- 当正数转换 - 11011
 	- 补全8位 - 0001 1011  - 注意负数最左边必须是1
 	- Convert into one's complement - 1110 0100
 	- Convert into two's complement - 1110 0101    这个就是-27的补码
-	- 
+	
 
 37 % 2 = 18 …… 1
 18 % 2= 9 ...... 0
@@ -114,3 +114,7 @@ This is how a computer stores binary numbers
 
 37(Denary) = 100101 (Binary)
 
+## Encoding of Character Sets
+- Each character in character sets has an unique binary representation
+- 7 bit - 2^7 possibility
+- ASCII - 7 bits -
