@@ -76,7 +76,18 @@ B**i**nary - 1024 - 2 ^ 10 - **base 2** number
 ## Two's complement
 This is how a computer stores binary numbers
 在计算机里面，数字的长度是固定的，8bit, 16bit或者计算机分配的指定bit,如果没说默认就8bit
-00100101
+0010 0101 - 这就是计算机如何存储37这个数字的
+- 正数的two's complement和他的本身的二进制是一样的
+	- 正数的原码，反码，补码都是一样的
+- 补码诞生的意义就是为了区分负数并且支持天然的加减法
+- 45 - 32 = 45 + （-32）
+- 补码的最左边的1bit表示carry bit - 符号位
+	- 如果carry bit = 1, negative
+	- carry bit = 0, positive
+- 补码最左边的数字其实也表达最大的数字的负数
+- 8 bit能表达的补码的最大数字是 127, 最小的数字 -128
+- 127 - 128
+- 0111 1111 + 1000 0000 = 
 
 
 
