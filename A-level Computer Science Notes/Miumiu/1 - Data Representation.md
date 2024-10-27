@@ -128,3 +128,16 @@ Analogue data - 模拟信号 - 指的是现实生活中的物理信号，是cont
 Digital Data - 数字信号 - 其实就是0 和 1 计算机可理解的方式(computer understandable) - 是discrete
 
 是通过Sampling 采样的方式去获取声音信号的
+These samples (amplitudes) are **encoded** as a **binary number sequence**
+### Sampling Rate 采样率
+Number of samples taken per unit time - 表示每个单元时间（1s）取几次样
+
+### Sampling Resolution
+解析度 - 表示一个样本有多大
+Number of bits per sample
+
+## Bit Rate = Sampling Rate * Sampling Resolution
+表示一秒有多大
+How many bits per second
+
+Bit Rate *  Number of seconds  = File Size
