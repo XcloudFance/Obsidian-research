@@ -1,0 +1,1 @@
+{"path":"Pasted image 20241030145414.png","text":"# Examples (thousands) | Evaluation Dataset | train dev test Metric NQ 792 8.7 3.6 EM TQA 788 8.8 113 EM HOTPOTQA | 889 5.6 5.6 Fy ELI5 2730 15 0.6 Fy FEVER 1050 104 10.1 Accuracy Wow 63.7 3.1 29 Fy Table 1: Statistics and evaluation metric for six tasks.","libVersion":"0.3.2","langs":"eng"}
