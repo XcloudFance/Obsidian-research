@@ -92,8 +92,19 @@
 	- Platter rotates in a very high speed by spindle
 	- sectors and tracks to store data
 		- where data is encoded as magnetic patterns
-	
+- When writing, writing head is charged with current, which causes magnetic field variation in hard disk
+- When reading, the variation of magnetic field in the disk produces currents to read head and then encode as binary electrical signal.
+- 
 
 
 ### SSD - Solid State Drive - Electric 方式
+- electron to store binary pattern
+- **NAND-based flash memory / 也可以是NOR**
+- Expensive, faster, reliable
+- 
 
+
+
+
+
+![[Pasted image 20241102113610.png]]
