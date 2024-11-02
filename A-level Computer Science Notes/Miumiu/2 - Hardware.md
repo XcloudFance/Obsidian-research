@@ -35,11 +35,21 @@
 		- used to running program data or most of temporary data.
 	- SRAM - Static RAM
 		- used to store **buffers** - buffer的意思是缓存
-		-
+		- consists of more complex circuits, thus more expensive to be built
+		- Faster in access
+		- **No need to be freshed regularly, thus need less power**
+		- Each bit stored in **flip-flop** - 电路组成
+			- flipflop是一种特殊的电路，可以用来存储1bit的数据
+			- NAND 组成的或者是NOR组成的
+
 
 
 ## Buffer - 缓存
 - Can be either Hardware(SRAM) or Software (video)
+- Buffer普遍表示**较快的内存**，而你通常又不需要存储太大的数据的时候，就需要buffer,因为这一部分内存随时可以丢掉
+- **当Buffer 被清空的时候 / 里面的数据被使用完清空后，触发系统中断(System interrupt)**
 - Printer Buffer - 打印机缓存
+	- Storing the file to be printed in buffer
+	- So that when the printer starts working, it gets the content of data from buffer directly
 	- 
 - 
