@@ -67,3 +67,6 @@
 	- 
 - Store **operating system kernels** 
 ![[Pasted image 20241102105647.png]]
+
+### PROM, EPROM, EEPROM
+
