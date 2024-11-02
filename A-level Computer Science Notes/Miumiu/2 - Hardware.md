@@ -82,4 +82,18 @@
 
 ## Hard Disk (HDD,SSD) - Secondary Storage
 ---
-### HDD - 
+### HDD - Magnetic 方式 - Hard Disk Drive
+- magnetic field 的方向就这个数据是0或者1
+- ![[Pasted image 20241102111957.png]]
+- HDD就是由sector和track组成的，数据都是存储在这个track和sector上面
+- **Read-write head** for seeking data through tracks and sectors.
+	- Readwrite head can read binary signals by the change of the direction of magnetic field
+- Platter(盘) is placed in the middle of the hard disk on the spindle(转轴)
+	- Platter rotates in a very high speed by spindle
+	- sectors and tracks to store data
+		- where data is encoded as magnetic patterns
+	
+
+
+### SSD - Solid State Drive - Electric 方式
+
