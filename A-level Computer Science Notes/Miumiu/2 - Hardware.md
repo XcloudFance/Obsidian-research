@@ -127,7 +127,7 @@
 - 相对于现实最经常听说的operating system, embedded system没有这么多功能，只负责专注自己的部分，并且呢专门用于小的硬件设备，或者家具等等
 - Only perform **specific functionality.**
 - Have **dedicated hardware** with it.
-- Require less power consumptions.
+- Small computer systems such as **microprocessors** **that are often a part of a larger system**
 
 - Advantages:
 	- Easy to mass produce - 方便去量产 - 因为比较简单
@@ -135,4 +135,7 @@
 	- Rather stable because it has no moving parts
 - Disadvantages:
 	- Different hardware has different standards, thus only experts can fix bugs or maintain it
-	- Lack of user-friendly guidances.
+	- Lack of user-friendly guidances. Difficult to learn how to use
+	- Difficult to update new functions or systems
+	- Cannot dynamically program new functions in the system.
+	- 
