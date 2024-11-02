@@ -69,4 +69,17 @@
 ![[Pasted image 20241102105647.png]]
 
 ### PROM, EPROM, EEPROM
+- PROM - Programmable ROM
+	- Only can be programmed once after it is created
+	- Can only be read, cannot be modified or deleted
+- EPROM - Erasable PROM
+	- 意思就是可以通过UV light把数据清除了，然后再reprogram（重新写入数据）
+	- 缺点：就是要把chip 拿出来之后才能清除数据
+- EEPROM - Electrically EPROM
+	- 正如他的名字，是使用电去存储和修改数据的
+	- Can erase or modify the data without chips being removed
+	- Uses electrical singals to store and erase data
 
+## Hard Disk (HDD,SSD) - Secondary Storage
+---
+### HDD - 
