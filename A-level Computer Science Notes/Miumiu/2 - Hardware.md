@@ -94,13 +94,23 @@
 		- where data is encoded as magnetic patterns
 - When writing, writing head is charged with current, which causes magnetic field variation in hard disk
 - When reading, the variation of magnetic field in the disk produces currents to read head and then encode as binary electrical signal.
-- 
+- Disadvantages 缺点:
+	- Not suitable for moving scenarios, since the data might be lost due to movement.
+		- Platter is speedingly rotating thus easy to get affected
+	- Not reliable enough.
 
 
 ### SSD - Solid State Drive - Electric 方式
 - electron to store binary pattern
 - **NAND-based flash memory / 也可以是NOR**
+
+- Consists of a grid(一个横纵二维的晶格) with rows & columns that has 2 transistors at each intersection:
+	- Control Gate: Control the flow of electrons to write or read.
+	- Floating Gate: 存储 Stores electrons to represent 1 or 0.
+
+
 - Expensive, faster, reliable
+- lighter, smaller and movable
 - 
 
 
