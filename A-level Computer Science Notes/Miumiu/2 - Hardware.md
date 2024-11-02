@@ -22,4 +22,24 @@
 
 
 ## RAM - Random Access Memory
+- Volatile Memory - 断电之后程序数据不会保存
+- 用来存储临时正在运行的程序的数据
+- RAM通常需要更快的访问速度(access speed),通常比ROM快
+	- DRAM - Dynamic RAM
+		- The circuit and structure is simpler to be built
+			- Only consists of **one transistor and one capacitor**
+			- **Cheaper** than SRAM - less expensive to purchase
+		- Has to be **refreshed to update data regularly.**
+			- Thus **slower in access** speed than SRAM
+			- Use **more power**
+		- used to running program data or most of temporary data.
+	- SRAM - Static RAM
+		- used to store **buffers** - buffer的意思是缓存
+		-
 
+
+## Buffer - 缓存
+- Can be either Hardware(SRAM) or Software (video)
+- Printer Buffer - 打印机缓存
+	- 
+- 
