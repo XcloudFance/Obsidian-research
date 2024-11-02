@@ -52,4 +52,18 @@
 	- Storing the file to be printed in buffer
 	- So that when the printer starts working, it gets the content of data from buffer directly
 	- 
-- 
+
+
+
+## ROM  - Read-Only Memory - Main Memory
+- Slower than RAM but cheaper than RAM
+- SRAM > DRAM > ROM > (USB) flashdrive / removable disk > Optical Disc - speed
+- Non-volatile memory: when the power is off, the data is still being kept
+- **Store BIOS and some bootup instructions of operating systems**
+	- BIOS是你开机的时候最先进入的地方
+	- bios才是真正引导你到真正的操作系统的地方
+	- bootup instructions 就是开机指令
+	- the basic input/output system (BIOS）is charged in booting up operating system into RAM.
+	- 
+- Store **operating system kernels** 
+![[Pasted image 20241102105647.png]]
