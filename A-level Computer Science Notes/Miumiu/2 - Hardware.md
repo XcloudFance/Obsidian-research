@@ -107,8 +107,9 @@
 - Consists of a grid(一个横纵二维的晶格) with rows & columns that has 2 transistors at each intersection:
 	- Control Gate: Control the flow of electrons to write or read.
 	- Floating Gate: 存储 Stores electrons to represent 1 or 0.
-
-
+- 小知识点：
+	- HDD之所以比SSD慢是因为HDD是需要旋转到指定的位置让读写头再读写，所以比较慢
+	- SSD直接定位grid里面坐标去读写，所以很快，但是电路组成比较复杂，所以很贵
 - Expensive, faster, reliable
 - lighter, smaller and movable
 - 
@@ -118,3 +119,20 @@
 
 
 ![[Pasted image 20241102113610.png]]
+
+
+
+
+## Embedded System - 嵌入式系统
+- 相对于现实最经常听说的operating system, embedded system没有这么多功能，只负责专注自己的部分，并且呢专门用于小的硬件设备，或者家具等等
+- Only perform **specific functionality.**
+- Have **dedicated hardware** with it.
+- Require less power consumptions.
+
+- Advantages:
+	- Easy to mass produce - 方便去量产 - 因为比较简单
+	- Require less power consumption
+	- Rather stable because it has no moving parts
+- Disadvantages:
+	- Different hardware has different standards, thus only experts can fix bugs or maintain it
+	- Lack of user-friendly guidances.
