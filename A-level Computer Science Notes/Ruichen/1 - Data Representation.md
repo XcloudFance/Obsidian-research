@@ -8,4 +8,5 @@
 	- 如果考试问你为什么overflow，比如说两个数字相加的场景，
 		- 1111 1111 + 0000 0010 这样肯定溢出
 		- Overflow means the result number of bits exceeds the number of bits of adding numbers
-		  
+	- 为什么需要补码？因为补码之间可以让计算机方便计算减法，比如说5 - 2 可以直接看成5 + (-2)
+	- 
