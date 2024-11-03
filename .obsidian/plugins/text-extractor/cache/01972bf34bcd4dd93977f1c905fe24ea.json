@@ -1,0 +1,1 @@
+{"path":"Pasted image 20241103140025.png","text":"TYPE TbookRecord DECLARE title : STRING DECLARE author : STRING DECLARE publisher : STRING DECLARE noPages : STRING DECLARE fiction : STRING ENDTYPE Other composite data types include sets and classes.","libVersion":"0.3.2","langs":"eng"}

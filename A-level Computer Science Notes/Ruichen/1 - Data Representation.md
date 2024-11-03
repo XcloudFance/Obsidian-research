@@ -110,9 +110,25 @@ Mantissa是8位，exponent是8位
 - enum -> 枚举
 - non-composite data type
 	- Enumerated Data Type 枚举常量类型
-		- 
+		- 枚举常量会有多个value, 这些枚举的常量会有自己的数字，是从你声明的时候的顺序决定的
+		- TYPE week = (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
+		- DECLARE thisWeek: week
+		- thisWeek <- Monday + 1   
+	- Pointer 指针类型
+		- 目的是为了指向一个指定的地址，并且可以对地址上的内容进行操作，也可以再指向别的地址
+		- reference：get the address of the variable - 把变量的地址拿出来
+		- deference: get the content of the pointer address - 指针指向的地址的内容拿出来
+		- ^abc   的意思是把abc变量的地址拿出来 - reference
+		- abcd^  意思是abcd是个指针，把abcd指针指向的值拿出来 - dereference
 	- 
 - composite data type
 	- 他支持一个变量里面存储多个value
 	- 这多个value甚至可以是不同类型的
+	- Record
+	- ![[Pasted image 20241103140025.png]]
+	- Sets 集合类型，你可以声明某个类型的集合
+	- ![[Pasted image 20241103140101.png]]
+	- TYPE setofInteger = SET OF INTEGER
+	- DECLARE set1 (1,5,6,4,3): setofInteger
+	- 其中1,5,6,4,3就是set1里面集合的内容
 	- 
