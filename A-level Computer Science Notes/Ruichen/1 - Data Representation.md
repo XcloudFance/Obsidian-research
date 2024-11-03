@@ -26,10 +26,29 @@
 11 -> 1011.01
 
 Mantissa是8位，exponent是8位
-[]01011.01
+1011.01
 
-接下来normalize一下，就是让0.N起手
-[]0.101101     4位（010）
+接下来normalize一下
+0.101101     记载一下，exponent是4
+
+因为mantissa一共是8位
+所以在后面补1位
+01011010  （mantissa）
+4 转补码的步骤写出来，写出来之后是100
+100 就是exponent
+
+
+
+
+
+
+07
+007
+
+0.70000
+0.700000000000000
+
+
 
 
 小数位是从上往下看，整数的才是从下往上看
@@ -37,3 +56,12 @@ Mantissa是8位，exponent是8位
 0.01
 0.25 *  2 = 0.5      ->0
 0.5 * 2 = 1.0          ->1
+
+
+
+## 经典问题
+- What happen if mantissa overflow?/ What happen if the given number stored in 8-bit mantissa?  0.1+0.2 不等于0.3
+	- Mantissa is not enough to precisely store the floating number
+	- Thus we need to expand more bits or borrow some bits from exponent to store it
+- Whats the trade-off between mantissa and exponent?
+	- Mantissa represents the preicison of various range of nu
