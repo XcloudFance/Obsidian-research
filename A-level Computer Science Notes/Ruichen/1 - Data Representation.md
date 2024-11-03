@@ -38,19 +38,6 @@ Mantissa是8位，exponent是8位
 100 就是exponent
 
 
-
-
-
-
-07
-007
-
-0.70000
-0.700000000000000
-
-
-
-
 小数位是从上往下看，整数的才是从下往上看
 小数是* 2然后整数是/2
 0.01
@@ -114,4 +101,18 @@ Mantissa是8位，exponent是8位
 - 1.000101111 + 1 = 1.000110000
 - 
 
-	
+
+
+
+## User-defined Data Types
+- record
+- class  -> python
+- enum -> 枚举
+- non-composite data type
+	- Enumerated Data Type 枚举常量类型
+		- 
+	- 
+- composite data type
+	- 他支持一个变量里面存储多个value
+	- 这多个value甚至可以是不同类型的
+	- 
