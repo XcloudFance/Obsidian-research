@@ -64,4 +64,13 @@ Mantissa是8位，exponent是8位
 	- Mantissa is not enough to precisely store the floating number
 	- Thus we need to expand more bits or borrow some bits from exponent to store it
 - Whats the trade-off between mantissa and exponent?
-	- Mantissa represents the preicison of various range of nu
+	- Mantissa represents the **preicison of various range of numbers.**
+	- Exponent represents the size of numbers.
+- 8bit mantissa and **4-bit exponent**, what is the **normalized** minimum positive floating point number in this system?
+	- 0100 0000   exponent能多前就多前
+	- 说人话就是要让exponent直接是一个能表达的最小数字，也就是1000
+	- -0.01 > -0.1  >  -0.2 
+	- 1111 1111   0111
+- -12.375的小数表达，用8bit mantissa和8bit exponent
+- 
+	
