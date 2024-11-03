@@ -78,10 +78,12 @@ Mantissa是8位，exponent是8位
 - 1100.011
 - 0.1100011
 - 1.0011100 + 1 = 10011101 - 负数 -12.375的mantissa
-- 
-
 
 - 11100011    向右移动4位 exponent就是100
+
+- Why do we use normalized form?
+- ![[Pasted image 20241103133002.png]]
+	- 这边要注意normalized就是要清除除开符号前面的前导0,不然exponent位置会浪费，mantissa也会浪费从而导致结果的数字可能并不是最精确的
 - 
 
 
