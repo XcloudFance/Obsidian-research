@@ -111,10 +111,11 @@ Mantissa是8位，exponent是8位
 - non-composite data type
 	- Enumerated Data Type 枚举常量类型
 		- 枚举常量会有多个value, 这些枚举的常量会有自己的数字，是从你声明的时候的顺序决定的
-		- TYPE week = (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
-		- DECLARE thisWeek: week
+		- **TYPE week = (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)**
+		- **DECLARE thisWeek: week**
 		- thisWeek <- Monday + 1   
 	- Pointer 指针类型
+	- ![[Pasted image 20241103140248.png]]
 		- 目的是为了指向一个指定的地址，并且可以对地址上的内容进行操作，也可以再指向别的地址
 		- reference：get the address of the variable - 把变量的地址拿出来
 		- deference: get the content of the pointer address - 指针指向的地址的内容拿出来
