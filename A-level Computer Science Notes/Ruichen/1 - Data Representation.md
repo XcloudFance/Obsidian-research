@@ -1,0 +1,11 @@
+## Floating Point Number
+- 计算机是如何存储数字的？
+	- Use two's complement to store numbers
+	- 正数的原码，反码(one's complement)，补码(two's complement)
+	- 补码 = 反码 + 1   （负数的反码和补码需要特别转换）
+	- 因为数字二进制补码被存储在计算机是有固定的大小位的，所以一般来说如果不够8位要补全8位
+	- 10001 -> 0001 0001   八位存储
+	- 如果考试问你为什么overflow，比如说两个数字相加的场景，
+		- 1111 1111 + 0000 0010 这样肯定溢出
+		- Overflow means the result number of bits exceeds the number of bits of adding numbers
+		  

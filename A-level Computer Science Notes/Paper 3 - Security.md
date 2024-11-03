@@ -1,4 +1,4 @@
-## Digital Signature
+# Digital Signature
 - **authentication**, **non-repudiation**, data **integrity**, **confidentiality**
 - Hashing algorithm
 	- Random File Access
@@ -31,9 +31,6 @@
 - When CPU needs to exceed the memory from RAM,  virtual memory extends the space to ROM so that CPU can access more available memory.
 - Only swap the memory data when necessary.
 - Virtual memory is created temporarily
-
-## Logical Memory
-- Paging
 
 
 

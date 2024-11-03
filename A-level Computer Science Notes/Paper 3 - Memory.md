@@ -5,10 +5,6 @@
 - Only swap the memory data when necessary.
 - Virtual memory is created temporarily
 
-## Logical Memory
-- Paging
-
-
 
 ## Deep Learning
 - Using Artificial Neural Network
