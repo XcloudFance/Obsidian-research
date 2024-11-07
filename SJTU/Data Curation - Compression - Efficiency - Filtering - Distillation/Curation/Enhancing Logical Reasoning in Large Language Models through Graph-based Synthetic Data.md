@@ -11,6 +11,9 @@ generate synthetic examples of graphstructured data from such relation graphs to
 > [!NOTE] 目标
 > 生成一个由关系型的图结构数据去加强LLM的逻辑推理能力
 
-他们也一样构建了一个类似Synthetic Continued Pretraining的Entity
+他们也一样构建了一个类似Synthetic Continued Pretraining的Entity Relation Graph, 并且同样也使用Adjacent Matrix表示entity之间的关系， 也使用probability去实现稀疏图（而不是简单的所有entity都有联系的稠密图）
+
+
+不同的是，他们使用permutation去枚举所有关系
 
 
