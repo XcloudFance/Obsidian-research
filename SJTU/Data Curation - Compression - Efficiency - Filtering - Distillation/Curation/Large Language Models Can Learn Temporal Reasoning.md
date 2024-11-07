@@ -26,4 +26,13 @@
 - 
 -
 
+![[Pasted image 20241108021332.png]]
 
+
+## Quality Control
+- 检测是否有遗漏的event（感觉这个很重要，因为gpt最擅长漏东西）
+- 
+> [!PDF|note] [[temporal.pdf#page=3&selection=146,38,149,29&color=note|temporal, p.3]]
+> > . If it cannot give the correct answer, we consider the event as possibly missing in the story, which requires further manual verification. 
+
+![[Pasted image 20241108021539.png]]
