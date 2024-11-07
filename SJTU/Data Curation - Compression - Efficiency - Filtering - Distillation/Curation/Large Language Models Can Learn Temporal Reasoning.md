@@ -31,8 +31,10 @@
 
 ## Quality Control
 - 检测是否有遗漏的event（感觉这个很重要，因为gpt最擅长漏东西）
+- 主要提高cot的过滤程度，控制推理链的可信度
 - 
 > [!PDF|note] [[temporal.pdf#page=3&selection=146,38,149,29&color=note|temporal, p.3]]
 > > . If it cannot give the correct answer, we consider the event as possibly missing in the story, which requires further manual verification. 
 
 ![[Pasted image 20241108021539.png]]
+![[Pasted image 20241108022659.png]]
