@@ -49,4 +49,12 @@
 	- Made from materials with electric charges on the surface/plate
 	- when touching, the electric charge is transferred through the finger
 	- Then the integrated chip calculates the coordinates of the touch for the system to respond. 他的实现原理本身就很灵活，所以支持multi-finger touch
-- 
+
+## VR headsets
+![[Pasted image 20241109113903.png]]
+
+- 视频画面是通过电脑用HDMI线（视频画面传输线）传输给vr headset
+- vr headset integrates two lenses(两个镜片)负责去display 不同的reshaped 的双眼画面，营造逼真的3d effect
+- **这个地方传输视频也会用到buffer**
+	- Computer transmits video signals by HDMI cable, and then saved in the buffer of VR headsets
+	- So that when vr headsets needs to load the scenario of the video, it directly reaches the content from the buffer
