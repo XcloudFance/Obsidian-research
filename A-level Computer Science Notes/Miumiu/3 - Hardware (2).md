@@ -39,3 +39,8 @@
 	- Since coils are connected with the cone, the vibration is then amplifed and output to the air.
 
 
+## Touchscreen
+- Resistive
+	- Two charged plates. When the touch is applied, the touch causes two plates touch each other and then complete circuit.
+	- Then the integrated chip calculates the coordinates of the touch for the system to respond.
+	- Disadvantage: cannot support multi-finger touch
