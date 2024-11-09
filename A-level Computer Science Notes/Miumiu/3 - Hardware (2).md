@@ -37,4 +37,5 @@
 	- Electric current is flowed through the coils and then thus causes the magnetic field (the iron core beocomes a temporary magnet)
 	- As the direction of the current changes, the magnetic field also changes, causing the iron core to be attracted and then causes vibrations
 	- Since coils are connected with the cone, the vibration is then amplifed and output to the air.
-	- 
+
+
