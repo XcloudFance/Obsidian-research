@@ -22,3 +22,12 @@
 - DAC: Digital to Analogue Converter - 数据转物理信号的芯片
 - ADC: Analogue to Digital Converter - 物理信号转数字信号芯片
 
+
+- Microphone - 振动产生移动，移动通过磁场产生电流
+	- consists of a diaphragm, cone, with wrapped coils on the permanent magnet
+	- Sounds creates by vibration through the air
+	- Diaphragm vibrates when receiving the sounds and then causes cone and coils to vibrate
+	- This move forwards and backwards causes the magnetic field to be disturbed, inducing eletric currents(产生电流)
+	- then the currents are hereby sampled by computer to become digital data
+- Speaker 扬声器 - 二进制数据产生电流，转换成振动然后再发出来
+	- 
