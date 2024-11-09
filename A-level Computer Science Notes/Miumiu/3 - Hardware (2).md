@@ -30,4 +30,11 @@
 	- This move forwards and backwards causes the magnetic field to be disturbed, inducing eletric currents(产生电流)
 	- then the currents are hereby sampled by computer to become digital data
 - Speaker 扬声器 - 二进制数据产生电流，转换成振动然后再发出来
+	- Coils of wire wrapped an iron core
+	- permanent magnet, cone
+	- Digital data is passed through DAC chip
+		- 这个过程本质上就是把二进制数据转换成有方向的电流
+	- Electric current is flowed through the coils and then thus causes the magnetic field (the iron core beocomes a temporary magnet)
+	- As the direction of the current changes, the magnetic field also changes, causing the iron core to be attracted and then causes vibrations
+	- Since coils are connected with the cone, the vibration is then amplifed and output to the air.
 	- 
