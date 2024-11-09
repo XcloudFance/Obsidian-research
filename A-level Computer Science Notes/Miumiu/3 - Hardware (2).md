@@ -43,4 +43,10 @@
 - Resistive
 	- Two charged plates. When the touch is applied, the touch causes two plates touch each other and then complete circuit.
 	- Then the integrated chip calculates the coordinates of the touch for the system to respond.
-	- Disadvantage: cannot support multi-finger touch
+	- Disadvantage: cannot support multi-finger touch. 
+	- Advantage: cheap to mass-produce
+- Capacitive:
+	- Made from materials with electric charges on the surface/plate
+	- when touching, the electric charge is transferred through the finger
+	- Then the integrated chip calculates the coordinates of the touch for the system to respond. 他的实现原理本身就很灵活，所以支持multi-finger touch
+- 
