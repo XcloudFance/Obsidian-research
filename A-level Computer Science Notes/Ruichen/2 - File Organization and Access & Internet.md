@@ -77,4 +77,8 @@ a[5] = [35] -> [55] -> [15] -> [5]
 
 ## Protocol - 协议
 - a set of rules between computers to communicate
-- 
+- TCPIP 四层协议
+	- **Application - 应用层** - 应用程序类的传输协议，用来负责应用程序之间交流的细节 - 端口传输 - port
+	- **Transport - 传输层** - 是应用层的地基，用来负责传输的细节，比如说包要传多大，要传几次，怎么传 - IP地址传输
+	- **Internet - 网络层** - 更底层的东西，到这一层已经开始使用mac地址
+	- **Link - 链路层** - wifi传输，网线传输层
