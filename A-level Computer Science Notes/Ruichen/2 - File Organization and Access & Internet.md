@@ -73,4 +73,8 @@ a[5] = [35] -> [55] -> [15] -> [5]
 
 - open hash就是直接存储在下一个有空的空间
 - closed hash 就是直接存储在overflow的地方，接着overflow的值继续存（这种就是一般开了一个链表一个接着一个存）
+
+
+## Protocol - 协议
+- a set of rules between computers to communicate
 - 
