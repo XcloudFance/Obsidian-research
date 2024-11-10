@@ -82,3 +82,14 @@ a[5] = [35] -> [55] -> [15] -> [5]
 	- **Transport - 传输层** - 是应用层的地基，用来负责传输的细节，比如说包要传多大，要传几次，怎么传 - IP地址传输
 	- **Internet - 网络层** - 更底层的东西，到这一层已经开始使用mac地址
 	- **Link - 链路层** - wifi传输，网线传输层
+
+## What happen from keying in the URL to visiting the website?
+- 浏览器从输入URL到展示页面到底发生了什么
+- The user keys in URL
+- the request packet is added with HTTP header and then sent into TCP layer (transport layer)
+- TCP is responsible for sending the packets to the target port
+- before u transfer, the URL domain name needs to be converted by sending them into DNS server for getting the IP address
+- DNS server once receives the domain name, looking up the corresponding IP address and send it back.
+- Browser starts building the connection once getting ACK from DNS server.
+- Server sends the web page code back to the client. browser
+- Browsers interpret the web page into website. -- display
