@@ -64,4 +64,10 @@
 	- Able to store a large number of users
 	- More secure becuz the transmission protocol has its own encryption
 	- 缺点：
-		- 
+		- ipv6地址not compatable with ipv4 所以很难全部迁移
+		- ipv6 address is too difficult to be remembered
+- **1050:0000:0000:0000:0005:0600:300c:326b** - ipv6 的例子
+	- 可以缩写：挑中间0最多地方直接省略，其他的不能省
+	- 105::5:0600:300c:326b
+	- 两个引号表示中间的0都被我省略了
+	- 
