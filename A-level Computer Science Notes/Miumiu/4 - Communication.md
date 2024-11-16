@@ -11,5 +11,12 @@
 1001 1011 -> one's complement -> - 100
 1001 1100 -> two's complement -> -100
 
+## 什么是Communication?
 
+
+- 什么是internet
+- 什么是world wide web - 万维网
+- 什么是protocol
+- 什么是transmission
+- 
 
