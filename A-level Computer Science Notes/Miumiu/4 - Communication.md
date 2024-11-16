@@ -12,11 +12,19 @@
 1001 1100 -> two's complement -> -100
 
 ## 什么是Communication?
+- 传输之间讲的语言，其实就是一套属于自己的规则和做法风格，这个就叫protocol
+	- 不同的protocol自然是无法相互交流的，因为标准都不一样，无法做到decoding
 
 
 - 什么是internet
+	- 生活中提到的网络，只要和互联网有连接的，和外面有连接的所有东西所有app所有传输都是internet
+	- QQ Wechat Instagram - 属于internet 但是不属于world wide web万维网
+	- 
 - 什么是world wide web - 万维网
-- 什么是protocol
-- 什么是transmission
+	- 特指网页和网页的资源的网络，如果是遵循文件传输，邮箱传输，app传输这种特别的规则就不属于www
+	- 
+## IP Address - IP地址
+- The location of the internet. **Used to identify different devices or invidiuals on the internet.**
+- Unique
 - 
 
