@@ -26,5 +26,17 @@
 ## IP Address - IP地址
 - The location of the internet. **Used to identify different devices or invidiuals on the internet.**
 - Unique
-- 
+- 可以用来建立互联网之间彼此的传输
 
+- WAN - 广域网
+	- Geographically large or covering bigger area
+	- Takes time to transmit data - More congested than LAN
+	- Usually share the **bandwidth** with other users on the internet
+		- bandwidth其实就是你的网速，the number of bits to be transferred within a unit time
+		- bandwidth higher means more bits to be transfered in one second
+		- bandwidth lower means less bit transferred and causes more time to wait for the transmission
+	- 100mbps - 100 megabit per second
+	- 
+
+- public IP address: is used in WAN (Wide Area Network)
+- private IP address: is used in LAN (Local Area Network)
