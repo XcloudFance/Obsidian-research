@@ -48,5 +48,20 @@
 - private IP address: is used in LAN (Local Area Network)
 
 - IP 地址的example：180.152.227.166   这是我的公网ipv4地址
-	- ipv4 每一个数字最多只能到255
-	- 而且由四个数字，用小数点隔开组成 - 
+	- ipv4 每一个数字最多只能到255 - Each number cannot exceed 255
+	- 而且由四个数字，用小数点隔开组成 - Consists of four numbers split by dots
+	- 1111 1111 -> 这是255的二进制，八位
+	- ipv4的真正定义是一个由四个八位的二进制数字组成的地址，一共是32-bit
+		- 32-bit address
+		- 2^4  0000 0001 0010 0011 .....
+		- 2 ^ 32种可能
+- Why dont people use IPV4?
+	- Maximum 2 ^32 different IP address available, which is not enough for the need of global internet users
+	- We can adopt IPV6 as the IP address, which contains more bits to store
+	- Less secure to transfer data because it has no encryption(加密).
+- IPV6地址：
+	- Consists of 8  16-bit numbers. Hence it is a 128-bit address
+	- Able to store a large number of users
+	- More secure becuz the transmission protocol has its own encryption
+	- 缺点：
+		- 
