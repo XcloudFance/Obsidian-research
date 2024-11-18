@@ -5,9 +5,23 @@
 > > an extractive compressor which selects useful sentences from retrieved documents and an abstractive compressor which generates summaries by synthesizing information from multiple documents.
 
 - 两个压缩器
+	- extractive compressor
+	- abstractive compressor
+	- 
+
+## Porblem Setting
+
+> [!PDF|255, 208, 0] [[8767_RECOMP_Improving_Retrieva.pdf#page=2&annotation=950R|8767_RECOMP_Improving_Retrieva, p.2]]
+> > ECOMP  compresses retrieved documents  D  with respect to  x  into a summary s  which captures core information in  D  relevant to  x  with significantly fewer tokens than  D.
+- 本质上还是RAG 压缩，从相关文档内获取内容
 - 
 
-
+## Compressor
+### Extractive Compressor
+- 摘取的压缩器是通过将文档的句子拆出来，和输入的问题做相关比较，相关度最高的全部作为压缩后的summary
+	- 有个potential的问题，如果作为普通数据集筛选，这样也会过拟合
+	- 对于RAG感觉如果是属于multihop的关系可能capture不到
+- 
 
 
 
