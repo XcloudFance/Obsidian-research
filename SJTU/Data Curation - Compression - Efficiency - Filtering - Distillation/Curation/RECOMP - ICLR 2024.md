@@ -1,4 +1,19 @@
 
+[[8767_RECOMP_Improving_Retrieva.pdf]]
+
+> [!PDF|yellow] [[8767_RECOMP_Improving_Retrieva.pdf#page=1&selection=56,48,65,78&color=yellow|8767_RECOMP_Improving_Retrieva, p.1]]
+> > an extractive compressor which selects useful sentences from retrieved documents and an abstractive compressor which generates summaries by synthesizing information from multiple documents.
+
+- 两个压缩器
+- 
+
+
+
+
+
+
+
+
 
 这是一个很好的想法!让我分析一下这两篇论文可能的结合点:
 
@@ -74,3 +89,6 @@ C. 挑战:
 - 设计更好的评估方法
 
 总的来说,结合这两种方法有很大潜力,可以既解决效率问题,又提升输出质量。关键是要巧妙设计训练方案,平衡各种目标。这个研究方向值得进一步探索。
+
+
+
