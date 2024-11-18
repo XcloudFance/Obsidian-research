@@ -21,7 +21,13 @@
 - 摘取的压缩器是通过将文档的句子拆出来，和输入的问题做相关比较，相关度最高的全部作为压缩后的summary
 	- 有个potential的问题，如果作为普通数据集筛选，这样也会过拟合
 	- 对于RAG感觉如果是属于multihop的关系可能capture不到
-- 
+- 用的是Unsupervised Dense Information Retrieval with Contrastive Learning， 训练的数据集是在wikipedia和ccnet,也有自己的多模态版本，用MoCo的方式训练
+ > [!PDF|important] [[8767_RECOMP_Improving_Retrieva.pdf#page=4&selection=91,1,102,20&color=important|8767_RECOMP_Improving_Retrieva, p.4]]
+> > For the language modeling task, we generate training data using the training split of the Wikitext-103 dataset, selecting the top 20 sentences from the top 5 BM25 retrieved documents for each input context x. For the QA tasks, we generate training data using the training split and consider the top 20 sentences from the top 5 contriever-ms-marco 5 retrieved documents.
+> > 
+
+
+
 
 
 
