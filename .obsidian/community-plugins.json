@@ -8,5 +8,7 @@
   "obsidian-git",
   "pdf-plus",
   "text-extractor",
-  "copilot"
+  "copilot",
+  "obsidian-hover-editor",
+  "obsidian-excalidraw-plugin"
 ]
