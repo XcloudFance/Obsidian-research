@@ -87,4 +87,16 @@
 - Decentralized Network - meaning there is no central server in the network
 
 
-## 
+## Subnetting 子网
+- Subnetting mask - 子网掩码
+- Subnetting: Split the whole network / IP address network into smaller sub-networks
+- IP地址里面其实是会规范哪些bit是用来表示networking,**哪些bit是用来表示host ID**
+- IP地址networking意思是说会告诉你这是哪个网络，相同网络的ip地址是会共享这一部分的地址
+	- 192.168.0.1 - 32bit 二进制
+	- 192.168.0.2
+	- 192.168.0.3
+- 这三个ip地址都是属于同一个网络底下出来的，因为他们前缀的networking ID是一样的
+- 一般情况下来说是由“子网掩码”去定义哪一部分是“不变的“， 以及哪一部分是属于”会变的“
+- 一般来说前面的是network,后面的是host, host一般都是用来identify different devices in the same network
+- 11100001. 10101111. 0000000.00000001 - 32bit IPV4地址
+- 111111111.
