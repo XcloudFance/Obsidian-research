@@ -80,4 +80,11 @@
 		 - 专门用来live streaming(直播)， 传输视频信号
 	- Printer Server -  打印机服务器
 	- Database Server - 数据库服务器
-	- 
+
+## Peer-to-peer 模型
+- All devices acts independently to store data
+- Every peer can become servers or clients to share data over the network
+- Decentralized Network - meaning there is no central server in the network
+
+## 对比
+
