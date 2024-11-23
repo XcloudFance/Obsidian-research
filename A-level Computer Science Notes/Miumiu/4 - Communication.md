@@ -86,5 +86,5 @@
 - Every peer can become servers or clients to share data over the network
 - Decentralized Network - meaning there is no central server in the network
 
-## 对比
 
+## 
