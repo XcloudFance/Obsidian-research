@@ -36,9 +36,6 @@
 		- bandwidth其实就是你的网速，the number of bits to be transferred within a unit time
 		- bandwidth higher means more bits to be transfered in one second
 		- bandwidth lower means less bit transferred and causes more time to wait for the transmission
-	- 
-	- 
-	- 
 - LAN - 局域网
 	- home, school, shopping mall
 	- geographically smaller area to be covered
@@ -72,6 +69,15 @@
 	- 两个引号表示中间的0都被我省略了
 
 
-255 - 十进制
-1111 1111 - 二进制
-FF - 十六进制
+## Client-Server Model   客户端服务器模型
+- Client 指的是 客户， 一般来说都是普通的用户
+- Server指的是服务器，负责提供指定服务给所有的Client
+	- File Server - 文件服务器
+		- File Sharing among different users
+		- Allow to share a link that contains files
+		- Can download or upload files from servers or to servers
+	 - Streaming Server - 流服务器
+		 - 专门用来live streaming(直播)， 传输视频信号
+	- Printer Server -  打印机服务器
+	- Database Server - 数据库服务器
+	- 
