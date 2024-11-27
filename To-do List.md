@@ -12,11 +12,14 @@ kanban-plugin: board
 - [ ] entigraph experiment
 - [ ] GNN - Explore GNN Possibility to End-to-end Entity Fine-Grained Data Curation
 - [ ] Diffusion latent representation learning
+- [ ] 要变得更细致，要讲为什么需要大batchsize
+- [ ] 要讲第二个表格为什么是这样的
+- [ ] 要修一些描述问题，对于表格的
 
 
 ## Doing
 
-- [ ] AutoDL finetune EntiGraph
+- [ ] ICME 2025 migrated from ICASSP
 
 
 ## Done
@@ -30,6 +33,7 @@ kanban-plugin: board
 ## 归档
 
 - [ ] test
+- [ ] AutoDL finetune EntiGraph
 - [ ] test
 
 
