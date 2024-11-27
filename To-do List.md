@@ -10,20 +10,21 @@ kanban-plugin: board
 - [ ] mask-to-deflare
 - [ ] unlearning reading
 - [ ] entigraph experiment
-- [ ] Hessian matrix guided Diffusion (second order) for unlearning
+- [ ] GNN - Explore GNN Possibility to End-to-end Entity Fine-Grained Data Curation
 - [ ] Diffusion latent representation learning
 
 
 ## Doing
 
 - [ ] AutoDL finetune EntiGraph
-- [ ] Long and Complex is alignment
-- [ ] GNN - Explore GNN Possibility to End-to-end Entity Fine-Grained Data Curation
 
 
 ## Done
 
 - [ ] Personal Statement - sfz
+- [ ] Huawei Cloud First Runnout
+- [ ] Hessian matrix guided Diffusion (second order) for unlearning
+- [ ] Long and Complex is alignment
 
 
 ## 归档
