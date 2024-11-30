@@ -149,7 +149,16 @@
 	- Satellite
 
 
-## 
+## 家里的设备是如何连接到互联网的？
+- 手机电脑平板都拥有一个硬件：**Wireless** Network Interface Card (WNIC) - 无线网卡
+	- 作用就是可以连接wifi信号，并且和wifi进行传输上网
+- 和家里的Router发出来的Radio Wave也就是Wifi进行连接
+- 连接过程：Router会负责给我们的Local Area Network的设备进行allocate private IP address
+- 连接后就可以通过router转发所有的互联网信息到彼此的设备和WAN之间建立连接
+	- Star Topology - 星型拓扑结构
+- Router会记住每个设备的**MAC地址和IP地址之间的联系**，然后负责识别和传输
+- Router NAT: Router translates private IP addresses to public IP addresses AND vice versa.
+
 
 ## Internet Supporting Hardware
 
