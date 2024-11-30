@@ -162,4 +162,11 @@
 
 ## Internet Supporting Hardware
 
-### PSTN 
+### PSTN - Public Switch Telephone Network
+- Channel between two endpoints using circuit switching
+	- 意思就是两边进行传输的过程的通道是专线传输
+- Using telephone lines to transmit
+- Lines active even during **power outage**  
+- Bi-directional communication 
+- Limited Bandwidth
+
