@@ -170,3 +170,25 @@
 - Bi-directional communication 
 - Limited Bandwidth
 
+
+
+### Bridge 和 Repeater的区别
+- Bridge叫无线网放大器
+	- 他本身就作为一个信号的转发器，放在信号弱和信号强的地方的中间，把wifi信号接受之后再以一个新的wifi信号传输出去给自己远处的手机和设备
+	- Connect two LANs that share the same protocol, which can be **two segments of the same network**
+	- **Stores all connected devices between two networks**
+- Repeater叫有线的线材**信号放大器**
+	- 信号放大器负责把衰减的有线信号放大一遍再传出去
+	- 所以这样就可以让两条cable连接在一起组成更长的线
+	- Connect two cables
+	- regenerates the sent data over the network **before the signal weakens**
+* Bridge用于连接两个不同的网络，而Repeater用于扩展同一个网络的范围。
+* Bridge可以过滤网络流量，而Repeater只是简单地转发所有信号。
+* Bridge需要配置IP地址，而Repeater不需要。
+
+
+
+
+
+
+
