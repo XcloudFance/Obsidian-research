@@ -118,6 +118,20 @@
 
 
 ## Internet Medium
+要考虑的问题
+- 价格
+- bandwidth
+- 距离
+- 抗干扰能力
+- Portability - 有线网和无线网的区别
+- Stability - 有线网和无线网的区别
+- 有线网可以使用full bandwidth
+	- 无线网如果受到干扰会导致bandwidth下降，所以会用不了full bandwidth
+	- duplex双工的传输
+	- wifi is half-duplex while wired network is full-duplex
+	- 
+- 
+
 - Wired Network
 	- Copper Cable
 		- cheaper
@@ -130,6 +144,12 @@
 		- Greater bandwidth
 		- Improved Security: **difficult to be listened by the third-party**
 - Wireless Network
+	- Radiowave
+	- Microwave
+	- Satellite
+
+
+## 
 
 ## Internet Supporting Hardware
 
