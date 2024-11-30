@@ -85,7 +85,7 @@
 - All devices acts independently to store data
 - Every peer can become servers or clients to share data over the network
 - Decentralized Network - meaning there is no central server in the network
-
+- **Spread the pressure of the server into all nodes in the peer-to-peer model**
 
 ## Subnetting 子网
 - Subnetting mask - 子网掩码
@@ -112,3 +112,24 @@
 	- 2^8种可能，
 
 假设今天电脑室有2^9台电脑，用这个子网掩码的ip地址段的大小可以表示所有的电脑吗： 111111111.  111111111. 111111111. 00000000 
+
+
+
+
+
+## Internet Medium
+- Wired Network
+	- Copper Cable
+		- cheaper
+		- cannot do the long distance
+		- need enough power to transmit data
+		- 
+	- Fibre-optic Cable
+		- more expensive for buying **dedicated** hardwares
+		- can transmit long distance
+		- Greater bandwidth
+		- Improved Security: **difficult to be listened by the third-party**
+- Wireless Network
+
+## Internet Supporting Hardware
+
