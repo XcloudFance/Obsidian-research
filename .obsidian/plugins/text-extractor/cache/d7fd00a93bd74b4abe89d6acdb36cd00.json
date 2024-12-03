@@ -1,0 +1,1 @@
+{"path":"Pasted image 20241203154223.png","text":"f + vim list1.py ~ (o} : - N X Person = {\"Name\": \"Ken\", \"Age\": 18, \"Gender\": \"Male\", \"Hobby\": \"Piano\"} print(\"My name is\", Person[\"Name\"]) print(\"I am\", Person[\"Age\"], \"years old\") print(\"I like play the\", Person['Hobby\"]) \"listl.py\" 12L, 204B 7,0-1 = 5","libVersion":"0.3.2","langs":"eng"}

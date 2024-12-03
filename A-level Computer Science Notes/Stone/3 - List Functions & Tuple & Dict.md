@@ -30,8 +30,17 @@
 ## Dictionary 字典 - Dict
 - 这是一个特殊的列表，里面的结构是key-value
 - 现在的key不同于list的index, 可以放字符串
-- Bob['Name']
-- Bob['Gender']
-- Bob['Age']
-- Bob['Hobby']
+- Person = {"Name":"Ken",  "Age":18 , "Gender": "Male", "Hobby":"Piano}
+- print(Person['Gender'])
+- print(Person['Hobby'])
 
+![[Pasted image 20241203154223.png]]![[Pasted image 20241203154246.png]]
+
+
+## For循环到底in后面跟的东西是什么
+- 可迭代的对象 - Iterative Object
+- 表示这个对象这个变量里面的值是有很多个的情况
+- for i in range(a,b)
+- range函数就是帮助你快速生成一个可迭代的对象，从a到b
+- list也是一个可迭代的对象
+- 
