@@ -20,4 +20,18 @@
 - 如果我需要连续的拿出从第a位到第b位的值，要怎么做？
 - 切片会直接拿出来一整个list
 - ![[Pasted image 20241203152011.png]]
+## 如何让list里面的东西倒着出来
+
+
+![[Pasted image 20241203153154.png]]
+
+
+
+## Dictionary 字典 - Dict
+- 这是一个特殊的列表，里面的结构是key-value
+- 现在的key不同于list的index, 可以放字符串
+- Bob['Name']
+- Bob['Gender']
+- Bob['Age']
+- Bob['Hobby']
 
