@@ -1,0 +1,1 @@
+{"path":"Pasted image 20241203150739.png","text":"f + vim list1.py ~ (o} : - N X name = I'Ken', 'Alice', 'Spike', 'Daniel'l # insert a new name 'Bob'’ name.insert(1, 'Bob') name.insert (@, 'Mohammad') print(name) i 1,42 = 5","libVersion":"0.3.2","langs":"eng"}
