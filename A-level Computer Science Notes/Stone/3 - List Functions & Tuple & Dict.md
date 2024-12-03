@@ -43,4 +43,5 @@
 - for i in range(a,b)
 - range函数就是帮助你快速生成一个可迭代的对象，从a到b
 - list也是一个可迭代的对象
-- 
+- **for i in num**的这个i本质上是从列表里面复制粘贴一个出来
+- ![[Pasted image 20241203155138.png]]
