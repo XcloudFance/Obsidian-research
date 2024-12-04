@@ -1,4 +1,4 @@
-## Objective
+	## Objective
 IFD = PPL(Y|X) / PPL(X)
 	
 The lower the IFD is, the easier the model would understand or follow the instructions and vice versa. **Thus, higher IFD indicates more difficulties to study, which is conducive to the performance.**
