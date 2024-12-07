@@ -22,11 +22,27 @@
 
 
 ## DNS Server - Domain Name Server
-
+- 负责把domain name 转换成对应的IP地址并且返回给客户
+	- Responsible for converting domain name into corresponding IP address and returned to clients
+- 
 
 
 ## URL
 
 Example:
 https://www.bilibili.com/video/BV194zXYkEyv/?vd_source=d656a6cc2800e6edefdadc447df9109e
+
+https: 指的是网页传输的协议(Protocol)， 意思就是网页用了什么标准传输
+www.bilibili.com - Domain name 域名， 相当于服务器的别名，这样有助于去记忆，而不是直接去记服务器的ip地址，更复杂
+
+## What happened when user is using a browser?
+- The user keys in the URL into browser
+- The browser requests DNS server to get the corresponding IP address
+- DNS received, and look up IP address **level by level**
+	- DNS服务器自己有三层，如果找不到会继续往上找，直到完全找不到为止
+	- 如果找不到会直接return一个error
+	- 
+- After the client really get the server's IP address, it starts to build up the connection.
+- Server will send the **HTML** code and other resources back to the browser
+- Browser renders the website **by interpreting the HTML code.**
 
