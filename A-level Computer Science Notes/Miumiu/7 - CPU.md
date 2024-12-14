@@ -4,3 +4,12 @@
 - **fetch, decode and execute instructions**
 - **direct the signal to other component, such as I/O devices, ALU and computer memory**
 
+## System Clock
+
+
+## Register
+- PC - Program Counter - Point to the next intruction address to be executed
+- MAR - Memory Address Register
+- MDR - Memory Data Register
+- CIR - Current Instruction Register
+- 
