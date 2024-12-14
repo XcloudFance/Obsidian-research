@@ -31,6 +31,19 @@
 
 
 ## Multi threading
-- Can make a processor run multiple tasks on different threads at the same time
+- Can make a processor run multi**ple tasks on different threads at the same time**
 - One thread means one task / process running
+
+## Num of Cores 
+- One of the computer system performance factor
+- More cores mean more multithreading at a time, thus improving the computer performance
+- 
+
+## Cache Memory
+- Cache is used to store **frequently** used data
+	- frequently 意思其实就是often
+	- 意思就是cache是用来存储经常使用的数据
+	- cache速度比较快，因此存储经常被反复使用的数据就可以做到access速度更快
+	- 这样就不用每次都跑去更远的RAM和ROM获取，加快了电脑处理内存速度
+- If **cache memory size is increased**, more commonly executed instructions can be stored and the **need** for the CPU to wait for instructions **to be loaded reduces,** 因此提高了性能
 - 
