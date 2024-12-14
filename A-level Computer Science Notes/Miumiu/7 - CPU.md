@@ -28,3 +28,9 @@
 	- 
 - Data Bus - Bi-directional
 - Address Bus - Uni-directional 单一方向的传输，from CPU to memory and IO devices
+
+
+## Multi threading
+- Can make a processor run multiple tasks on different threads at the same time
+- One thread means one task / process running
+- 
