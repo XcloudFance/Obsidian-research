@@ -12,4 +12,9 @@
 - MAR - Memory Address Register
 - MDR - Memory Data Register
 - CIR - Current Instruction Register
-- 
+- MDR或者CIR里面取出来真正的指令的数据是由两个部分组成的：
+	- Opcode + Operand
+	- Opcode表示这条指令对应的代码 比如说0010,然后让CU自己去找到底对应的是谁
+	- Operand表示这个指令所需要传入的数据 / 参数
+	- **Decode阶段说白了就是在看取出来的东西到底对应什么指令**
+	- 
