@@ -1,0 +1,20 @@
+- We found out that the denoising process is progressively giving bias features back to the noise
+- Brutally using Interpretable Diffusion is no use 
+	- Proven by practical experiment
+	- Since there is no way to prompt normal images out when containing trigger words
+	- need to get in the middle
+- Thus we found out ImageReward, which gives preferences reward model in the middle of timesteps to back propagates
+	- But maybe not good enough since T is not backpropagated enough
+	- ImageRewards was initally used to match the preference. Here we aim to debias so our BLIP score is mostly changed
+	- We can know that U-net encoder part is creating less possible biases. So maybe freezing encoder and keep decoder is a good option.
+	- I think instead of using their BLIP for tallying with preferences, why not just use MERU
+	- 
+- Simply using CLIP loss as base line
+	- CLIP loss also needs to confine by pre-train loss. Otherwise the model easily get overfitted or catastrophic forgetting.
+	- Practical Experiment Proven
+- For detection
+	- Even though openbias can generate suggestions of elements in the image
+	- it is still needed to have synonyms, and when it comes to out-of-bias-set situation, it gets unknown. Not a real openset
+	- We adopt llama3 vision simply prompting it to observe possible biases between images. Simple and brutal
+- In total, autodebiasing prompt T2I model to create 3+ images to detect inital biases
+	- and using antonyms to counteract the biases by debiasing reward model
