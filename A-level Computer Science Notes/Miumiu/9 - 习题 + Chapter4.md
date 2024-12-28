@@ -35,5 +35,19 @@ a1b1c1d1e1f1g1   <- 压缩后
 
 
 ## Vector Graphic
-- A vector graphic consists of drawing objects
-- Drawing Objects: mathematically defined constructs, such as triangle, line, 
+- A vector graphic c**onsists of drawing objects**
+- Drawing Objects: **mathematically defined constructs**, such as triangle, line, circle
+- **Drawing Lists**: A set of commands that identify drawing objects, 相当于是用命令的方式存储了可以用哪些drawing object
+- Smaller file size
+- Can scale up / zoom in without losing quality
+
+
+
+## Servers
+- File Server - 这个也是公司可以用到的
+- Mail Server - 邮件服务器
+	- 邮件服务器就是用来存储收发的邮件，学校是肯定会用到的
+	- 公司也有可能用到
+- Printer Server - 打印机服务器
+- Proxy Server - 代理服务器
+- 
