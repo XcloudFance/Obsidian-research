@@ -59,4 +59,7 @@ RAM is volatile and ROM is non-volatile, **which means ROM can preserve the data
 Register - the smallest unit of memory
 最小的内存单元
 
-data of **instruction** fetched from meory
+data of **instruction** fetched from memory
+
+contiugous repeated colors turned into the number
+
