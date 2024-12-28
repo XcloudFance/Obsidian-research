@@ -50,4 +50,13 @@ a1b1c1d1e1f1g1   <- 压缩后
 	- 公司也有可能用到
 - Printer Server - 打印机服务器
 - Proxy Server - 代理服务器
-- 
+-
+
+
+RAM access speed is faster while ROM is slower
+RAM is volatile and ROM is non-volatile, **which means ROM can preserve the data even the power is off**
+
+Register - the smallest unit of memory
+最小的内存单元
+
+data of **instruction** fetched from meory
