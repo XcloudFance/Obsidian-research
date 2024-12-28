@@ -64,3 +64,14 @@ data of **instruction** fetched from memory
 **contiugous repeated colors turned into the number of reptition and the color itself**
 **For example: the first line of pixel: R2 P3 G1**
 
+
+## Logical Shift
+- logical shift 意思是如果左移或者右移出现的空位由0来补上
+	- 左移就是右边多一个0
+	- 右移就是左边多一个0
+
+## Arithmetic Shift
+ - for signed integers multiplication and division
+ - signed integers - 
+ - unsigned integers
+ - 
