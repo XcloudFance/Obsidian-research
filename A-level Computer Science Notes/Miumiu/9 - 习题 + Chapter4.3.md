@@ -72,6 +72,21 @@ data of **instruction** fetched from memory
 
 ## Arithmetic Shift
  - for signed integers multiplication and division
- - signed integers - 
- - unsigned integers
- - 
+ - signed integers - 是有符号的，有负数的情况的
+ - unsigned integers - 没有符号，意味着所有位置都用来存储数字，都是正数，最小的数字是0
+
+## Cyclic Shift
+- 循环移位
+- 意思是左移被挤掉的会被放到右边
+- 右移被挤掉的会被放到左边
+
+
+## Bit Masking - 位掩码
+- 位掩码 本质就是盖住某一串位置，只看指定的位置是否为0或者为1
+- 1100   这是个4bit的二进制
+	- 最左边那一位表示房间的灯是开的还是关的
+	- 最右边的第一位表示厨房的灯是开的还是关的
+- 计算机里面经常拿一个二进制的数字来表示很多种状态
+- 8bit就可以表示8个不同地方的状态
+- 4bit表示4个不同地方的状态
+- 
