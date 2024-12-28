@@ -34,3 +34,6 @@ a1b1c1d1e1f1g1   <- 压缩后
 
 
 
+## Vector Graphic
+- A vector graphic consists of drawing objects
+- Drawing Objects: mathematically defined constructs, such as triangle, line, 
