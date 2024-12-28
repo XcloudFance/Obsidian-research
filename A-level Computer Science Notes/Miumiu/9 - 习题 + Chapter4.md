@@ -61,5 +61,6 @@ Register - the smallest unit of memory
 
 data of **instruction** fetched from memory
 
-contiugous repeated colors turned into the number
+**contiugous repeated colors turned into the number of reptition and the color itself**
+**For example: the first line of pixel: R2 P3 G1**
 
