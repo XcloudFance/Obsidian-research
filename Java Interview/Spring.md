@@ -1,5 +1,7 @@
 ## Bean
-
+- 本质上是一个对象
+- 由Spring进行管理生命周期，创建，postprocessor等等
+- 
 
 
 
