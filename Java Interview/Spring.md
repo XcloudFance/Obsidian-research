@@ -9,7 +9,7 @@
 
 
 ## IoC Container
-
+![[Pasted image 20241231113555.png]]
 
 
 
