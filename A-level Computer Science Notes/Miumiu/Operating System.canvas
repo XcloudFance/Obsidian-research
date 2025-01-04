@@ -16,7 +16,7 @@
 		{"id":"66b63fd660e583e2","x":70,"y":425,"width":250,"height":60,"type":"text","text":"Processor Management"},
 		{"id":"ce254f66a87c1c31","type":"text","text":"对应的硬件","x":436,"y":600,"width":250,"height":60},
 		{"id":"a703b1acb63cdf50","type":"text","text":"RAM - Random Access Memory","x":712,"y":600,"width":250,"height":60},
-		{"id":"b797c6443c5aaaf7","x":504,"y":385,"width":423,"height":159,"type":"text","text":"Processor 是处理器， Process 是进程\n- Enable multi-programming and multi-tasking\n- Normally one processor would contain more than one core, more cores mean can process mu"}
+		{"id":"b797c6443c5aaaf7","x":504,"y":385,"width":576,"height":159,"type":"text","text":"Processor 是处理器， Process 是进程\n- Enable **multi-programming and multi-tasking**\n- Normally one processor would contain more than one core, more cores mean can process multiple tasks at the same time\n- "}
 	],
 	"edges":[
 		{"id":"ef2bdbae49a5814a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"ff7f79df88fc6c98","toSide":"left"},
