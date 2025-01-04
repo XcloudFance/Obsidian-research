@@ -13,3 +13,8 @@ and unsigned integer - 所有位置的数字都是二进制的表达大小的一
 - provide an environment for application to be executed
 - Control the hardware communication
 - Process users' requests
+
+## Driver
+- 驱动的作用就是给每个peripheral 或者是input output device 提供服务
+- OS 只能通过驱动去和这些CPU以外的硬件进行communicate
+- 
