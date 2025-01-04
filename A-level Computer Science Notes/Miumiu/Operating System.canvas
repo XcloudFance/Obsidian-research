@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"eee85d44dc65c9ee","type":"file","file":"A-level Computer Science Notes/Miumiu/10 - Chapter 5.md","x":-440,"y":-200,"width":700,"height":520},
+		{"id":"917ff5c14cda9f43","type":"text","text":"Operating System Managements","x":-340,"y":500,"width":250,"height":60},
+		{"id":"ff7f79df88fc6c98","type":"text","text":"Process Management","x":70,"y":418,"width":250,"height":60},
+		{"id":"716b10c995564bdb","type":"text","text":"Hardware Management","x":65,"y":514,"width":250,"height":60},
+		{"id":"7904cdb2f46cb63e","type":"text","text":"Memory Management","x":70,"y":600,"width":250,"height":60},
+		{"id":"9614297a31803768","type":"text","text":"File Management","x":70,"y":680,"width":250,"height":60},
+		{"id":"686a8a82aafeb2d4","type":"text","text":"Security Management","x":70,"y":760,"width":250,"height":60},
+		{"id":"ce254f66a87c1c31","type":"text","text":"对应的硬件","x":433,"y":532,"width":250,"height":60},
+		{"id":"a703b1acb63cdf50","type":"text","text":"RAM - Random Access Memory","x":738,"y":485,"width":250,"height":60},
+		{"id":"243a3b31ed7356c2","type":"text","text":"ROM - Read-only Memory","x":742,"y":589,"width":250,"height":60},
+		{"id":"d9d20b500b8a18d5","type":"text","text":"功能","x":436,"y":675,"width":250,"height":60},
+		{"id":"ab05f2399382eff3","type":"text","text":"- **Paging techniques**\n- **Memory Protection** - 内存保护\n\t- 可以保证application之间不会互相access彼此的memory space. - 保证了security和privacy\n\n- Paging其实指的就是把内存分成固定大小的页，每个页大概是4kb","x":434,"y":839,"width":466,"height":181}
+	],
+	"edges":[
+		{"id":"ef2bdbae49a5814a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"ff7f79df88fc6c98","toSide":"left"},
+		{"id":"9c4ef575402c3edc","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"716b10c995564bdb","toSide":"left"},
+		{"id":"34b499698b254f48","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"7904cdb2f46cb63e","toSide":"left"},
+		{"id":"5c9116130c73b24a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"9614297a31803768","toSide":"left"},
+		{"id":"69873b28ef19a42f","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"686a8a82aafeb2d4","toSide":"left"},
+		{"id":"2689ad3d04b832e3","fromNode":"7904cdb2f46cb63e","fromSide":"right","toNode":"ce254f66a87c1c31","toSide":"left"},
+		{"id":"e81306f1beb70551","fromNode":"ce254f66a87c1c31","fromSide":"right","toNode":"a703b1acb63cdf50","toSide":"left"},
+		{"id":"b6f4bafe818ee5e5","fromNode":"ce254f66a87c1c31","fromSide":"right","toNode":"243a3b31ed7356c2","toSide":"left"},
+		{"id":"213bcc1d07de22cf","fromNode":"7904cdb2f46cb63e","fromSide":"right","toNode":"d9d20b500b8a18d5","toSide":"left"},
+		{"id":"aac8b15b5bf55ce0","fromNode":"d9d20b500b8a18d5","fromSide":"bottom","toNode":"ab05f2399382eff3","toSide":"top"}
+	]
+}
