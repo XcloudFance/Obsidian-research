@@ -5,14 +5,18 @@
 		{"id":"716b10c995564bdb","type":"text","text":"Hardware Management","x":65,"y":514,"width":250,"height":60},
 		{"id":"7904cdb2f46cb63e","type":"text","text":"Memory Management","x":70,"y":600,"width":250,"height":60},
 		{"id":"686a8a82aafeb2d4","type":"text","text":"Security Management","x":70,"y":760,"width":250,"height":60},
-		{"id":"ce254f66a87c1c31","type":"text","text":"对应的硬件","x":433,"y":532,"width":250,"height":60},
-		{"id":"a703b1acb63cdf50","type":"text","text":"RAM - Random Access Memory","x":738,"y":485,"width":250,"height":60},
 		{"id":"d9d20b500b8a18d5","type":"text","text":"功能","x":436,"y":675,"width":250,"height":60},
-		{"id":"ab05f2399382eff3","type":"text","text":"- **Paging techniques**\n- **Memory Protection** - 内存保护\n\t- 可以保证application之间不会互相access彼此的memory space. - 保证了security和privacy\n- Virtual Memory - 虚拟内存，指的是程序自己所访问的内存并不是真正的物理地址，所以无论怎么访问都属于当前程序范围内\n\n真正的物理地址是要经过Operating System转换才能访问的\n- Paging其实指的就是把内存分成固定大小的页，每个页大概是4kb","x":634,"y":790,"width":466,"height":341},
 		{"id":"9614297a31803768","type":"text","text":"File Management","x":-90,"y":936,"width":250,"height":55},
 		{"id":"243a3b31ed7356c2","type":"text","text":"ROM - Read-only Memory","x":280,"y":911,"width":250,"height":50},
 		{"id":"ab5ace85990e64fe","x":160,"y":1100,"width":474,"height":320,"type":"text","text":"- 一般体现在OS有自己的**File System**\n\t- 有自己的Directory / Folder结构\n\t- 有结构的存储文件，用来访问存储在ROM的文件\n- Provide **File Naming Conventions**\n\t- nihao.mp3 - 文件名，nihao是指文件的名字，mp3是文件的后缀，指的是文件的类型，mp3就是音乐类型\n- Maintains a directory structure\n- Allocates spaces **for particular files**"},
-		{"id":"ff7f79df88fc6c98","type":"text","text":"Process Management","x":70,"y":340,"width":250,"height":60}
+		{"id":"ab05f2399382eff3","type":"text","text":"- **Paging techniques**\n- **Memory Protection** - 内存保护\n\t- 可以保证application之间不会互相access彼此的memory space. - 保证了security和privacy\n- Virtual Memory - 虚拟内存，指的是程序自己所访问的内存并不是真正的物理地址，所以无论怎么访问都属于当前程序范围内\n\n真正的物理地址是要经过Operating System转换才能访问的\n- Paging其实指的就是把内存分成固定大小的页，每个页大概是4kb","x":1060,"y":660,"width":466,"height":341},
+		{"id":"d01613fad266c0e1","x":609,"y":790,"width":311,"height":187,"type":"text","text":"- **Prevents unauthroized access**\n- **Requires usernames & passwords**\n- **Conduct automatic backup**\n- Ensures Data Privacy"},
+		{"id":"d04695b26ed00b72","x":504,"y":201,"width":416,"height":139,"type":"text","text":"- 进程管理\n- Process - Running Program - 正在运行的程序就叫进程\n- Allocate resources to specific processes\n- "},
+		{"id":"ff7f79df88fc6c98","type":"text","text":"Process Management","x":70,"y":320,"width":250,"height":60},
+		{"id":"66b63fd660e583e2","x":70,"y":425,"width":250,"height":60,"type":"text","text":"Processor Management"},
+		{"id":"ce254f66a87c1c31","type":"text","text":"对应的硬件","x":436,"y":600,"width":250,"height":60},
+		{"id":"a703b1acb63cdf50","type":"text","text":"RAM - Random Access Memory","x":712,"y":600,"width":250,"height":60},
+		{"id":"b797c6443c5aaaf7","x":504,"y":385,"width":423,"height":159,"type":"text","text":"Processor 是处理器， Process 是进程\n- Enable multi-programming and multi-tasking\n- Normally one processor would contain more than one core, more cores mean can process mu"}
 	],
 	"edges":[
 		{"id":"ef2bdbae49a5814a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"ff7f79df88fc6c98","toSide":"left"},
@@ -24,7 +28,11 @@
 		{"id":"e81306f1beb70551","fromNode":"ce254f66a87c1c31","fromSide":"right","toNode":"a703b1acb63cdf50","toSide":"left"},
 		{"id":"b6f4bafe818ee5e5","fromNode":"9614297a31803768","fromSide":"right","toNode":"243a3b31ed7356c2","toSide":"left"},
 		{"id":"213bcc1d07de22cf","fromNode":"7904cdb2f46cb63e","fromSide":"right","toNode":"d9d20b500b8a18d5","toSide":"left"},
-		{"id":"aac8b15b5bf55ce0","fromNode":"d9d20b500b8a18d5","fromSide":"bottom","toNode":"ab05f2399382eff3","toSide":"top"},
-		{"id":"8ddbe8f530b8df19","fromNode":"9614297a31803768","fromSide":"right","toNode":"ab5ace85990e64fe","toSide":"left"}
+		{"id":"8ddbe8f530b8df19","fromNode":"9614297a31803768","fromSide":"right","toNode":"ab5ace85990e64fe","toSide":"left"},
+		{"id":"279a9c46bf51f6a9","fromNode":"686a8a82aafeb2d4","fromSide":"right","toNode":"d01613fad266c0e1","toSide":"left"},
+		{"id":"c682e24826add428","fromNode":"d9d20b500b8a18d5","fromSide":"right","toNode":"ab05f2399382eff3","toSide":"top"},
+		{"id":"5df9ba333ad44f96","fromNode":"ff7f79df88fc6c98","fromSide":"right","toNode":"d04695b26ed00b72","toSide":"left"},
+		{"id":"d7fdf7b09a5d72ca","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"66b63fd660e583e2","toSide":"left"},
+		{"id":"4bf401ab09fef207","fromNode":"66b63fd660e583e2","fromSide":"right","toNode":"b797c6443c5aaaf7","toSide":"left"}
 	]
 }
