@@ -6,3 +6,10 @@ and unsigned integer - 所有位置的数字都是二进制的表达大小的一
 如果是无符号整数，最左边这个1也是属于二进制的一部分，把8位全部带进去算成十进制
 	得出来一定是个正数 （0或者0以上的数字）
 
+
+
+## Operating System
+- Provides user interface
+- provide an environment for application to be executed
+- Control the hardware communication
+- Process users' requests

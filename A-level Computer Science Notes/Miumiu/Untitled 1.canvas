@@ -1,1 +1,18 @@
-{}
+{
+	"nodes":[
+		{"id":"eee85d44dc65c9ee","x":-440,"y":-200,"width":700,"height":520,"type":"file","file":"A-level Computer Science Notes/Miumiu/10 - Chapter 5.md"},
+		{"id":"917ff5c14cda9f43","x":-340,"y":500,"width":250,"height":60,"type":"text","text":"Operating System Managements"},
+		{"id":"ff7f79df88fc6c98","x":70,"y":418,"width":250,"height":60,"type":"text","text":"Process Management"},
+		{"id":"716b10c995564bdb","x":65,"y":514,"width":250,"height":60,"type":"text","text":"Hardware Management"},
+		{"id":"7904cdb2f46cb63e","x":54,"y":594,"width":250,"height":60,"type":"text","text":"Memory Management"},
+		{"id":"9614297a31803768","x":60,"y":681,"width":250,"height":60,"type":"text","text":"File Management"},
+		{"id":"686a8a82aafeb2d4","x":65,"y":797,"width":250,"height":60,"type":"text","text":"Security Management"}
+	],
+	"edges":[
+		{"id":"ef2bdbae49a5814a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"ff7f79df88fc6c98","toSide":"left"},
+		{"id":"9c4ef575402c3edc","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"716b10c995564bdb","toSide":"left"},
+		{"id":"34b499698b254f48","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"7904cdb2f46cb63e","toSide":"left"},
+		{"id":"5c9116130c73b24a","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"9614297a31803768","toSide":"left"},
+		{"id":"69873b28ef19a42f","fromNode":"917ff5c14cda9f43","fromSide":"right","toNode":"686a8a82aafeb2d4","toSide":"left"}
+	]
+}
