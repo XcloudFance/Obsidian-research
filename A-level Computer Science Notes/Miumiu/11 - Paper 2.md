@@ -53,5 +53,8 @@ nm/12 - invalid
 nm+12 - invalid
 nm_12 - valid
 
-
+## Loop - 循环
+FOR loop    - count loop 计数循环，表示知道循环的次数
+WHILE loop   - conditional loop   - 
+REPEAT..UNTIL loop  - conditional loop
 
