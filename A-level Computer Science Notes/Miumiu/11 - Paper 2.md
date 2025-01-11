@@ -55,6 +55,32 @@ nm_12 - valid
 
 ## Loop - 循环
 FOR loop    - count loop 计数循环，表示知道循环的次数
-WHILE loop   - conditional loop   - 
-REPEAT..UNTIL loop  - conditional loop
+WHILE loop   - conditional loop   - 把条件放在前面 
+REPEAT..UNTIL loop  - conditional loop - 把条件放在后面 - **post-conditional loop**
 
+
+注意伪代码的assignment操作是箭头，不是等号
+```
+DECLARE numbers : ARRAY[1:10] OF INTEGER
+
+array declare的时候是需要告诉上界和下界，也就是所谓的范围，如果我写[1:10]意思就是1，2,3,4,5,6,7,8,9,10都可以存储，都有位置，且类型都是integer
+numbers[1] <- 99
+numbers[2] <- 456
+numbers[4] <- 666
+numbers[10] <- 1000
+
+
+我想请问1000他存不存在于numbers里面？怎么寻找？
+
+FOR i <- 1 TO 10
+	if numbers[i] = 1000 THEN
+		OUTPUT "1000是存在的"
+	ELSE
+		OUTPUT "1000是不存在的"
+	ENDIF
+NEXT i
+
+这个代码的作用是从numbers里面找出每一个值，每一个都去问一下是否为1000,如果找到了的话马上output, 1000是存在的
+
+
+```
