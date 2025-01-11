@@ -35,3 +35,23 @@ STRING - 字符串 - 是由双引号把一串文字括起来的数据 "hello,wor
 
 
 ```
+
+
+
+## 书的loan 的 数据可以有哪些？
+- BookID
+- BorrowerID / Username
+- PeriodOfTime
+
+Identifier 的规范 - 唯一标志符
+- 只要是我们取名的东西都要符合规范
+
+DateOfBirth - DOB - 生日的日期，是不能说Birthday
+
+valid / Invalid
+nm/12 - invalid
+nm+12 - invalid
+nm_12 - valid
+
+
+
