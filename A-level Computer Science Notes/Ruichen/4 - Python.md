@@ -78,3 +78,16 @@ input里面也是可以填一**个字符串**的，这个字符串每次在你�
 考试的时候如果让你写：prompt user to input xxx
 你就记得在input函数里面写一些提示，User friendly 
 
+
+## Variable & Data Type
+
+- Identifier 标识符， 变量的名字，函数的名字等等
+	- 要保证identifier的命名的规范，比如说正确的大小写，不能有特殊的字符
+- 一个变量的组成：
+	- 变量名(Identifier)
+	- 变量的初始值(Initial Value)
+	- 的类型 - python是弱类型语言，所以不是强制的
+- int
+- bool    - 由True和False组成，注意t和f都是大写
+- str - 字符串
+- 
