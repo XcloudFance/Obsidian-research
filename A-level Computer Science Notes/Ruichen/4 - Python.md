@@ -88,6 +88,44 @@ input里面也是可以填一**个字符串**的，这个字符串每次在你�
 	- 变量的初始值(Initial Value)
 	- 的类型 - python是弱类型语言，所以不是强制的
 - int
+- float - 小数
 - bool    - 由True和False组成，注意t和f都是大写
 - str - 字符串
-- 
+- **list - 列表 - 由中括号括起来的collection type - 有复数个元素**
+- **tuple - 元组**
+- **dict - dictionary 字典**
+
+## Selection Statement - 分支语句 / 选择语句
+- 本质上就是在说代码可以分开成不同条件执行不同的语句，就叫Selection Statement
+- 其实就是if语句
+- if语句就是判断括号内的条件是否成立，如果成立就执行A,不成立就执行else的B
+```python
+
+if condition:
+	print("hello,world!")
+	print("只要是属于if语句的都必须是同一个缩进")
+
+```
+
+
+```C#
+
+if (a == 1){
+	console.writeln("hello,world!");
+}
+```
+
+
+## Loop
+- for循环， 里面是需要学一个函数，叫range函数
+
+```python
+
+for i in <这里填一个可以迭代的对象>:
+	你要循环的代码
+	
+```
+可以迭代的对象一般就意味着复合元素的变量
+比如说list, tuple, dict这种都是复合元素，都可以放在in的后面
+str其实也是复合元素
+str其实可以看成是好几个单个字符的组成，所以for i in str变量也是可以cheng l
