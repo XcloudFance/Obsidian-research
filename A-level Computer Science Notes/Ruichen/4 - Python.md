@@ -45,4 +45,36 @@
 	- 非对称加密
 	- 加密的协议 - SSL TLS怎么加密的
 	- 数字签名 - Digitial Signature
-- 
+- Operating System (System Software) - 操作系统理论
+
+
+- 整理theory的复习材料给你
+- 让AI出一点python实践的习题给你
+
+## Python语法
+- 输出
+```python
+print("hello,world!")
+print("hello,C++!")
+```
+print函数默认结尾都会换行，是因为有一个默认参数，叫end
+end每次都会被默认赋值为\n
+所以如果你不想换行，可以把end修改了
+
+```python
+print("hello,world!", end = '')   # 表示把end修改成空字符，意思就是结尾什么都不输出
+print("hello,C++!")
+```
+
+可能你需要将多个print连成一行的时候会用到修改end的时候
+
+### 输入函数
+input()
+
+input函数会在命令行窗口**等待**用户的输入，回车表示结束
+输入的结果会放成返回值返回
+
+input里面也是可以填一**个字符串**的，这个字符串每次在你要求用户输入的时候会先输出，作为**提示词**
+考试的时候如果让你写：prompt user to input xxx
+你就记得在input函数里面写一些提示，User friendly 
+
