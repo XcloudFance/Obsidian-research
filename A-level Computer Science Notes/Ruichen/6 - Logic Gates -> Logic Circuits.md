@@ -45,3 +45,7 @@ AB + AC
 
 AB'C + ABC' + ABC  - 这个就是AB +AC的sop式子，但明显不是最简，因为其实A(B+C)已经是最简了
 
+
+Karnaugh map - 卡诺图，专门用来快速化简布尔代数的式子
+
+
