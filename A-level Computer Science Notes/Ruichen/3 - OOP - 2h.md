@@ -24,4 +24,59 @@
 - Polymorphism 类的多态
 	- 你可以让对方传父类，只要父类是一样的就行，子类怎么操作无所谓
 	- 因为我的这个函数里面要调用和父类的标准一样的方法，但是你具体怎么实现取决于你实例到底用的是谁的底子去初始化的
-	- :
+
+
+
+
+## Paper 4 - Concepts
+
+## Programming Paradigm
+
+- Low-level
+    
+    - Assembly language
+        
+    - using simple computer instruction sets and addresses to execute
+        
+
+- Imperative
+    
+    - Procedurally execute the codes in the order it is set
+        
+    - Executing faster than OOP and declarative
+        
+- Declarative
+    
+    - Based on the facts and rules to execute
+        
+    - Used to form a query
+        
+- Object-Oriented Programming
+    
+    - Class-based. Having its own self-contained objects, with the attributes and methods
+        
+    - Can communicate each other
+        
+    - Inheritation
+        
+        - Sub-class inheriate attributes and functions thoroughly from parent class
+    - Polymorphism
+        
+        - Using the same parent class to instantiate the sub-class
+            
+        - Parent class functions can be overrided by sub-classes so that same functions in different objects could act differently.
+            
+
+- Encapsulation
+    
+    - Make an attribute hide in behind, set in private - Data Hiding
+        
+    - Only got setter() and getter() for each attributes
+        
+        - Why do we need?
+            
+            - Used for data validation
+                
+            - Prevent invalid input from users
+                
+            - Able to hide the data, keeping privacy
